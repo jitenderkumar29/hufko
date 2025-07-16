@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './HeaderCategory.module.scss';
-import { faStore, faUtensils, faBasketShopping, faSeedling, faHandsHelping, faPills, faCab } from '@fortawesome/free-solid-svg-icons';
+import { faStore, faUtensils, faBasketShopping, faSeedling, faHandsHelping, faPills, faCab, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AllCategory from '../../HomePage/AllCategory/AllCategory';
 import { ShopingCategories } from '@/app/data/ShopingCategories';
@@ -11,7 +11,7 @@ import { GroceryCategories } from '@/app/data/GroceryCategories';
 interface CategoryItem {
   id: string;
   name: string;
-  icon: any;
+  icon: IconDefinition;
 }
 
 const HeaderCategory: React.FC = () => {
@@ -50,7 +50,6 @@ const HeaderCategory: React.FC = () => {
         <div className={styles.allCategory}>
           <AllCategory
             categories={ShopingCategories}
-            title="Shop by Category"
           />
         </div>
       )}
@@ -58,7 +57,6 @@ const HeaderCategory: React.FC = () => {
         <div className={styles.allCategory}>
           <AllCategory
             categories={FruitsCategories}
-            title="Shop by Category"
           />
         </div>
       )}
@@ -66,7 +64,6 @@ const HeaderCategory: React.FC = () => {
         <div className={styles.allCategory}>
           <AllCategory
             categories={GroceryCategories}
-            title="Shop by Category"
           />
         </div>
       )}
@@ -74,7 +71,6 @@ const HeaderCategory: React.FC = () => {
         <div className={styles.allCategory}>
           <AllCategory
             categories={FlowersCategories}
-            title="Shop by Category"
           />
         </div>
       )}

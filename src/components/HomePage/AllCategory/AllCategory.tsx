@@ -10,10 +10,10 @@ interface Category {
 
 interface AllCategoryProps {
   categories: Category[];
-  title?: string;
+  // title?: string;
 }
 
-const AllCategory = ({ categories, title }: AllCategoryProps) => {
+const AllCategory = ({ categories }: AllCategoryProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
   const [visibleItems, setVisibleItems] = useState(6);

@@ -8,7 +8,7 @@ import { ChevronDown } from 'lucide-react';
 const Header = () => {
   const [showLocationModal, setShowLocationModal] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
-  const [cartItems, setCartItems] = useState(3); // Example cart items count
+  const [cartItems,] = useState(3); // Example cart items count
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
   const [animate, setAnimate] = useState(false);
 
@@ -42,7 +42,7 @@ const Header = () => {
     }, 2000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [placeholders.length]);
 
 
 
@@ -77,7 +77,7 @@ const Header = () => {
                 <>
                   <span className={styles.animatedPlaceholderFix}>Search for </span>
                   <span className={`${styles.animatedPlaceholder} ${animate ? styles.fadeOut : styles.fadeIn}`}>
-                    "{placeholders[placeholderIndex]}"
+                    &quot;{placeholders[placeholderIndex]}&quot;
                   </span>
                 </>
               )}
