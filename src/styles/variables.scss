@@ -1,0 +1,46 @@
+    // Max Screen Width
+  $max-width: 1300px;
+
+  // Colors
+  $primary-color: #ECDCFF;  
+  // $primary-color: #BE205A;  
+  $primary-color-dark : #950EDB;   // Dark blue-gray
+  $secondary-color: #1E84CC;
+  $secondary-color-dark: #026bb6;
+
+  // Button Color
+  $button-red: #E83F25;
+  $button-red-hover: #A62C2C;
+  $light-red: #f8eaea;
+
+  // Neutral Colors
+  $white: #ffffff;
+  $black: #000000;
+  $light-gray: #f5f5f5;
+  $gray: #cccccc;
+  $dark-gray: #555555;
+  $red: #ff0000;
+  $green: #0a8a13;
+  $green-dark: #066d0f;
+  $blue: #0000ff;
+  $yellow: #ffff00;
+  $purple: #800080;
+
+  // Border
+  $border-color: #dee2e6;
+  $border-light: #e9ecef;
+  $border-dark: #ced4da;
+  $border-focus: #b5b5b5;
+  $border: 1px solid $border-color;
+
+  // Status Colors
+  $success-color: #28a745;
+  $warning-color: #ffc107;
+  $error-color: #dc3545;
+  $info-color: #17a2b8;
+
+  // Shadow
+  $box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  $box-shadow-light-1: 0 2px 4px rgba(0, 0, 0, 0.1);
+  $box-shadow-light: 0 2px 4px rgba(0, 0, 0, 0.3);
+  $box-shadow-dark: 0 2px 4px rgba(0, 0, 0, 0.9);

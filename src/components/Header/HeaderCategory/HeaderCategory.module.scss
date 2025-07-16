@@ -1,0 +1,120 @@
+// @import "../../styles/variables.scss";
+
+.headerCategory {
+  // background-color: #ffffff;
+    background: linear-gradient(to top, $white, #FBF8FF);
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.25rem 0;
+  position: fixed;
+  top: 70px;
+  z-index: 100;
+  width: 100%;
+}
+
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 1rem;
+  // overflow-x: auto;
+  scrollbar-width: none; /* For Firefox */
+  
+  &::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+}
+
+.categoryTabs {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  margin-left: -1.5rem;
+  justify-content: space-between;
+}
+
+.categoryTab {
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: $black;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  position: relative;
+  border: 1px solid $primary-color;
+  border-radius: 50px;
+
+  &:hover {
+     background-color: #ECDCFF;
+    //  background-color: lighten($primary-color, 10%);
+     border-radius: 50px;
+  }
+
+  &.active {
+    color: $white;
+    background-color: $primary-color-dark;
+    border-radius: 50px;
+    
+    // &::after {
+    //   content: '';
+    //   position: absolute;
+    //   bottom: -0.5rem;
+    //   left: 0;
+    //   right: 0;
+    //   height: 2px;
+    //   background-color: #0066c0;
+    // }
+  }
+  span{
+    font-size: 18px;
+  }
+}
+
+.icon {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+  margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .categoryTab {
+    min-width: 60px;
+    font-size: 0.7rem;
+    padding: 0.25rem;
+  }
+  
+  .icon {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .categoryTabs {
+    gap: 0.25rem;
+  }
+  
+  .categoryTab {
+    min-width: 50px;
+    font-size: 0.6rem;
+    
+    span {
+      display: none;
+    }
+  }
+  
+  .icon {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+.allCategory{
+  margin-top: 5rem;
+}
