@@ -1,10 +1,10 @@
 .allCategoryContainer {
   padding: 0 1rem;
-  margin-bottom: 3.25rem;
+  margin-bottom: 0.25rem;
   position: relative;
   width: 100%;
   max-width: $max-width;
-  margin: 0 auto 3.25rem;
+  margin: 0 auto 0.25rem;
 
   @media (max-width: 768px) {
     padding: 0 0.5rem;
@@ -102,7 +102,7 @@
   padding: 0.5rem;
   width: 100%;
   box-sizing: border-box;
-  max-width: 100px;
+  max-width: 115px;
 
   span {
     white-space: nowrap;

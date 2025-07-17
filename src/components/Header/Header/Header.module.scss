@@ -8,7 +8,9 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(to top, #FBF8FF, $primary-color);
+  background: linear-gradient(to top, #f6cedd, #f6aec8);
+  // background: linear-gradient(to top, #f7a9c5, #f66fa1d9);
+  // background: linear-gradient(to top, #FBF8FF, $primary-color);
   color: $white;
 
   &Container {
@@ -28,11 +30,14 @@
 
   .logo {
     // color: $white;
-    color: #950EDB ;
+    color: $primary-color;
+    // color: #950EDB ;
     // color: #00b5b7;
     font-size: 40px;
     font-weight: 700;
     margin: 0;
+    width: 150px;
+    height: 45px;
   }
 
   .locationContainer {
@@ -61,7 +66,8 @@
   }
 
   .locationIcon {
-    color: #950EDB;
+    color: $primary-color;
+    // color: #950EDB;
     // color: $white;
     font-size:20px;
     margin-top: 1px;
@@ -109,17 +115,18 @@
   height: 100%;
   padding: 0.5rem 1rem;
   padding-right: 2.5rem;
-  border: 1px solid #e0e0e0;
+  border: 2px solid $primary-color;
   border-radius: 2rem;
   font-size: 18px;
   transition: all 0.3s ease;
-  background: transparent;
-  color: $white;
+  background: $white;
+  // background: transparent;
+  color: $black;
   
   &:focus {
     outline: none;
-    border-color: #00b5b7;
-    box-shadow: 0 0 0 2px rgba(0, 181, 183, 0.2);
+    border-color: $primary-color;
+    box-shadow: 0 0 0 1px $primary-color;
   }
 }
 
@@ -129,7 +136,7 @@
   left: 1rem;
   transform: translateY(-50%);
   // color: $white;
-  color: #999;
+  color: $black;
   pointer-events: none;
   font-size: 18px;
   transition: all 0.3s ease;
@@ -140,7 +147,7 @@
   left: 6.4rem;
   transform: translateY(-50%);
     // color: $white;
-  color: #999;
+  color: $black;
   pointer-events: none;
   font-size: 18px;
   transition: all 0.3s ease;
@@ -185,12 +192,13 @@
     border: none;
     cursor: pointer;
     // color: $white;
-    color: #666;
+    color: $primary-color;
     padding: 0.3rem;
     transition: all 0.2s ease;
 
     &:hover {
-      color: #00b5b7;
+      color: $primary-color-dark;
+      // color: #00b5b7;
     }
   }
 
@@ -229,16 +237,16 @@
       background-color: #f0f0f025;
     }
 
-    &::after {
-      content: '';
-      position: absolute;
-      right: -0.25rem;
-      top: 50%;
-      transform: translateY(-50%);
-      height: 60%;
-      width: 1px;
-      background-color: #e0e0e0;
-    }
+    // &::after {
+    //   content: '';
+    //   position: absolute;
+    //   right: -0.25rem;
+    //   top: 50%;
+    //   transform: translateY(-50%);
+    //   height: 60%;
+    //   width: 1px;
+    //   background-color: #e0e0e0;
+    // }
 
     &:last-child::after {
       display: none;

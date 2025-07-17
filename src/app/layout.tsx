@@ -2,6 +2,24 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.scss";
 import AppRoutes from "./AppRoutes";
+import { Inter } from 'next/font/google';
+import '@fontsource/inter/600.css'; // Specifically for SemiBold weight
+// import { Inter as FontSans } from '@fontsource/inter';
+
+// Option 1: Using next/font/google (hosted by Google)
+const inter = Inter({
+  subsets: ['latin'],
+  weight: '600', // SemiBold is 600
+  variable: '--font-inter',
+});
+
+// Option 2: Using self-hosted @fontsource/inter
+// const fontSans = FontSans({
+//   weight: '600',
+//   subsets: ['latin'],
+//   variable: '--font-inter',
+// });
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable}`}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

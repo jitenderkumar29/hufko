@@ -2,9 +2,12 @@
 
 .headerCategory {
   // background-color: #ffffff;
-    background: linear-gradient(to top, $white, #FBF8FF);
+    background: linear-gradient(to top, $white, #f6c2d5);
+    // background: linear-gradient(to top, $white, #f698ba);
+    // background: linear-gradient(to top, $white, #FBF8FF);
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid $border-color;
   padding: 0.25rem 0;
   position: fixed;
   top: 70px;
@@ -49,16 +52,18 @@
   position: relative;
   border: 1px solid $primary-color;
   border-radius: 50px;
+  background-color: $primary-color-light;
 
   &:hover {
-     background-color: #ECDCFF;
+     background-color: $primary-color;
+    //  background-color: #ECDCFF;
     //  background-color: lighten($primary-color, 10%);
      border-radius: 50px;
   }
 
   &.active {
     color: $white;
-    background-color: $primary-color-dark;
+    background-color: $primary-color;
     border-radius: 50px;
     
     // &::after {
@@ -117,4 +122,9 @@
 
 .allCategory{
   margin-top: 5rem;
+}
+
+// Tab Container Style
+.tabContainer{
+  // background-color: #F1F2F4
 }

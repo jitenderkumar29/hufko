@@ -1,9 +1,10 @@
 // components/Header/Header.tsx
 import React, { useEffect, useState } from 'react';
 import styles from './Header.module.scss';
-import { FaMapMarkerAlt, FaSearch, FaShoppingCart } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaSearch } from 'react-icons/fa';
 import { IoIosArrowDown } from 'react-icons/io';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, ShoppingCart } from 'lucide-react';
+import Image from 'next/image';
 
 const Header = () => {
   const [showLocationModal, setShowLocationModal] = useState(false);
@@ -50,7 +51,8 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <div className={styles.leftSection}>
-          <h1 className={styles.logo}>Hufko</h1>
+          {/* <h1 className={styles.logo}>HUFKO</h1> */}
+          <Image src={"/icons/logo.png"} className={styles.logo} alt='Logo' width={521} height={117} />
           <div className={styles.locationContainer} onClick={toggleLocationModal}>
             <div className={styles.deliveryTime}>Delivery in 10 minutes</div>
             <div className={styles.deliveryLocation}>
@@ -99,7 +101,8 @@ const Header = () => {
             <button className={styles.loginButton}><span>Login</span>
             </button>
             <button className={styles.cartButton}>
-              <FaShoppingCart className={styles.cartIcon} />
+              <ShoppingCart className={styles.cartIcon} />
+              {/* <FaShoppingCart className={styles.cartIcon} /> */}
               <div className={styles.cartDetails}>
                 <span className={styles.cartItems}>{cartItems} items</span>
                 <span className={styles.cartPrice}>₹90</span>

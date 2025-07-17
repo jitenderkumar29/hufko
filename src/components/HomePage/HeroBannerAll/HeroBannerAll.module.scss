@@ -1,0 +1,240 @@
+.heroBanner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #ffffff;
+  margin-top: 0;
+  overflow: hidden;
+  margin-bottom: 1rem;
+
+  .swiperContainer {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiperSlide {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bannerItem {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bannerLink {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .bannerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 8px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .discountBadge {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .saleText {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .category {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+
+  .offText {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff5722;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .prevButton,
+  .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    svg {
+      color: #333;
+      font-size: 1.2rem;
+    }
+  }
+
+  .prevButton {
+    left: 15px;
+  }
+
+  .nextButton {
+    right: 15px;
+  }
+
+  .pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    z-index: 10;
+
+    .paginationDot {
+      width: 12px;
+      height: 4px;
+      border-radius: 2px;
+      background-color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      transition: all 0.5s ease;
+
+      &.activeDot {
+        width: 35px;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+// Responsive styles
+@media (max-width: 1191px) {
+  .heroBanner {
+    height: 350px;
+
+    .bannerContent {
+      padding: 15px;
+    }
+
+    .discountBadge {
+      font-size: 2rem;
+    }
+
+    .saleText {
+      font-size: 1.5rem;
+    }
+
+    .category {
+      font-size: 1rem;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+    }
+
+    .offText {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .heroBanner {
+    height: 300px;
+
+    .bannerContent {
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .discountBadge {
+      font-size: 1.8rem;
+    }
+
+    .saleText {
+      font-size: 1.3rem;
+    }
+
+    .category {
+      font-size: 0.9rem;
+    }
+
+    .subtitle {
+      font-size: 0.8rem;
+    }
+
+    .offText {
+      font-size: 1rem;
+    }
+
+    .prevButton,
+    .nextButton {
+      width: 30px;
+      height: 30px;
+
+      svg {
+        font-size: 1rem;
+      }
+    }
+
+    .pagination {
+      bottom: 10px;
+
+      .paginationDot {
+        width: 10px;
+        height: 3px;
+
+        &.activeDot {
+          width: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .heroBanner {
+    height: 250px;
+  }
+}
