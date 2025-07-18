@@ -28,7 +28,7 @@ const Header = () => {
     "Food Delivery",
     "Grocery Delivery",
     "Flower Delivery",
-    "Cabs",
+    // "Cabs",
     "Care",
     "Pharma"
   ];
@@ -95,9 +95,9 @@ const Header = () => {
             <button className={styles.actionButton}>
               <span>Offer</span>
             </button>
-            <button className={styles.actionButton}>
+            {/* <button className={styles.actionButton}>
               <span className={styles.lang}>Eng <ChevronDown className={styles.langIcon} /></span>
-            </button>
+            </button>  */}
             <button className={styles.loginButton}><span>Login</span>
             </button>
             <button className={styles.cartButton}>

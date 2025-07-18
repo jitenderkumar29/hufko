@@ -2,7 +2,8 @@
 
 .headerCategory {
   // background-color: #ffffff;
-    background: linear-gradient(to top, $white, #f6c2d5);
+    background: linear-gradient(to top, $white, #f5dde6);
+    // background: linear-gradient(to top, $white, #f6c2d5);
     // background: linear-gradient(to top, $white, #f698ba);
     // background: linear-gradient(to top, $white, #FBF8FF);
 
@@ -18,7 +19,7 @@
 .container {
   max-width: $max-width;
   margin: 0 auto;
-  padding: 0 1rem;
+  // padding: 0 1rem;
   // overflow-x: auto;
   scrollbar-width: none; /* For Firefox */
   
@@ -31,7 +32,7 @@
   display: flex;
   gap: 0.5rem;
   padding: 0.5rem 0;
-  margin-left: -1.5rem;
+  // margin-left: -1.5rem;
   justify-content: space-between;
 }
 
@@ -121,7 +122,11 @@
 }
 
 .allCategory{
-  margin-top: 5rem;
+  margin-top: 4.5rem;
+}
+
+.GroceryProductCategory{
+  margin-top: 1rem;
 }
 
 // Tab Container Style

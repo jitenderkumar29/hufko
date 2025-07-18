@@ -1,6 +1,6 @@
 export const ShopingCategories = [
   {
-    name: "Minutes",
+    name: "Top",
     imageUrl: "/products/shoping.png",
   },
   {
@@ -24,23 +24,23 @@ export const ShopingCategories = [
     imageUrl: "/products/Electronics.png",
   },
   {
-    name: "Home & Furniture",
+    name: "Home Furniture",
     imageUrl: "/products/HomeFurniture.png",
   },
   {
     name: "TVs & Appliances",
     imageUrl: "/products/TVsAppliances.png",
   },
-  {
-    name: "Flight Bookings",
-    imageUrl: "/products/FlightBookings.png",
-  },
+  // {
+  //   name: "Flight Bookings",
+  //   imageUrl: "/products/FlightBookings.png",
+  // },
   {
     name: "Beauty, Food",
     imageUrl: "/products/BeautyFood.png",
   },
-  {
-    name: "Grocery",
-    imageUrl: "/products/Grocery.png",
-  },
+  // {
+  //   name: "Grocery",
+  //   imageUrl: "/products/Grocery.png",
+  // },
 ];

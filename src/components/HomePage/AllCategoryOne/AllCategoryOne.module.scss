@@ -33,7 +33,7 @@
 
 .categoryContainer {
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
   overflow-x: auto;
   scroll-behavior: smooth;
   scrollbar-width: none;
@@ -60,8 +60,8 @@
   color: inherit;
 
   &:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    // transform: translateY(-1px);
+    // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
 
   @media (max-width: 768px) {

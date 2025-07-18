@@ -12,7 +12,7 @@ export const GroceryCategories = [
     imageUrl: "/products/MasalaDryFruits.png",
   },
   {
-    name: "Zepto Cafe",
+    name: "Zepto Cafe Order",
     imageUrl: "/products/hufkoCafe.png",
   },
   {
@@ -32,7 +32,7 @@ export const GroceryCategories = [
     imageUrl: "/products/JewelleryAccessories.png",
   },
   {
-    name: "Frozen Food",
+    name: "Frozen Food Order",
     imageUrl: "/products/FrozenFood.png",
   },
   {
@@ -43,10 +43,10 @@ export const GroceryCategories = [
     name: "Packaged Food",
     imageUrl: "/products/PackagedFood.png",
   },
-  { name: "Dairy, Bread", imageUrl: "/products/DairyBreadEggs.png" },
-  // { name: "Dairy, Bread & Eggs", imageUrl: "/products/DairyBreadEggs.png" },
+  { name: "Dairy, Bread & Eggs", imageUrl: "/products/DairyBreadEggs.png" },
+  // { name: "Dairy, Bread", imageUrl: "/products/DairyBreadEggs.png" },
   { name: "Cold Drinks & Juices", imageUrl: "/products/ColdDrinksJuices.png" },
-  { name: "Munchies", imageUrl: "/products/Munchies.png" },
+  { name: "Munchies Masala", imageUrl: "/products/Munchies.png" },
   { name: "Meats, Fish & Eggs", imageUrl: "/products/MeatsFishEggs.png" },
   { name: "Breakfast & Sauces", imageUrl: "/products/BreakfastSauces.png" },
   { name: "Tea, Coffee & More", imageUrl: "/products/TeaCoffeeMore.png" },

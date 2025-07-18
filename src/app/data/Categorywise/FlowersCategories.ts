@@ -32,7 +32,7 @@ export const FlowersCategories = [
     imageUrl: "/products/LuxuryFlowers.png",
   },
   {
-    name: "All Flowers",
+    name: "All Flowers Enjoy",
     imageUrl: "/products/AllFlowers.png",
   },
   {

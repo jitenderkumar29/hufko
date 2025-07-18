@@ -8,7 +8,8 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(to top, #f6cedd, #f6aec8);
+  background: linear-gradient(to top, #f5dde6, #f6c2d5);
+  // background: linear-gradient(to top, #f6cedd, #f6aec8);
   // background: linear-gradient(to top, #f7a9c5, #f66fa1d9);
   // background: linear-gradient(to top, #FBF8FF, $primary-color);
   color: $white;
@@ -37,7 +38,7 @@
     font-weight: 700;
     margin: 0;
     width: 150px;
-    height: 45px;
+    height: auto;
   }
 
   .locationContainer {
@@ -144,7 +145,7 @@
 .animatedPlaceholder {
   position: absolute;
   top: 50%;
-  left: 6.4rem;
+  left: 7rem;
   transform: translateY(-50%);
     // color: $white;
   color: $black;
@@ -285,9 +286,31 @@
   }
 
   .cartIcon {
-    font-size: 40px;
+    font-size: 40px !important;
     color: white;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease; /* Smooth transition for the rotation */
   }
+
+  .cartIcon:hover {
+    animation: rotateCart 0.6s ease-in-out; /* Animation on hover */
+}
+
+@keyframes rotateCart {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-30deg); /* Rotate left */
+    }
+    75% {
+        transform: rotate(30deg); /* Rotate right */
+    }
+    100% {
+        transform: rotate(0deg); /* Return to original position */
+    }
+}
 
   .cartDetails {
     display: flex;

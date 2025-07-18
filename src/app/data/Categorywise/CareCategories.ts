@@ -8,7 +8,7 @@ export const CareCategories = [
     imageUrl: "/products/MenSalonMassage.png",
   },
   {
-    name: "AC & Appliance Repair",
+    name: "Appliance & AC Repair",
     imageUrl: "/products/ACApplianceRepair.png",
   },
   {
@@ -16,11 +16,11 @@ export const CareCategories = [
     imageUrl: "/products/CleaningPestControl.png",
   },
   {
-    name: "Electrician, Plumber & Carpenter",
+    name: "Plumber & Carpenter",
     imageUrl: "/products/ElectricianPlumberCarpenter.png",
   },
   {
-    name: "Native Water Purifier",
+    name: "Water Purifier",
     imageUrl: "/products/NativeWaterPurifier.png",
   },
   {
@@ -28,7 +28,7 @@ export const CareCategories = [
     imageUrl: "/products/PaintingWaterproofing.png",
   },
   {
-    name: "Wall Panels",
+    name: "Wall Panels Repair",
     imageUrl: "/products/WallPanels.png",
   },
 ];

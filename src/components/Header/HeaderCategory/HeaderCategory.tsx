@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './HeaderCategory.module.scss';
-import { faStore, faUtensils, faBasketShopping, faSeedling, faHandsHelping, faPills, faCab, IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { faStore, faUtensils, faBasketShopping, faSeedling, faHandsHelping, faPills, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AllCategory from '../../HomePage/AllCategory/AllCategory';
 import { GroceryCategories } from '@/app/data/Categorywise/GroceryCategories';
@@ -13,6 +13,17 @@ import { CareHeroBannerData } from '@/app/data/HeroBannerwise/CareHero';
 import ShoppingSlides1 from '@/components/HomePage/Shopping/ShoppingSlides1/ShoppingSlides1';
 import { ShopingSlide1SmartPhoneDeals } from '@/app/data/Shoping/ShopingSlide1';
 import { PharmaHeroBannerData } from '@/app/data/HeroBannerwise/PharmaHero';
+import { ShopingCategories } from '@/app/data/Categorywise/ShopingCategories';
+import AllCategoryOne from '@/components/HomePage/AllCategoryOne/AllCategoryOne';
+import { FlowersCategories } from '@/app/data/Categorywise/FlowersCategories';
+import { CareCategories } from '@/app/data/Categorywise/CareCategories';
+import { PharmaCategories } from '@/app/data/Categorywise/PharmaCategories';
+import { FoodsCategories } from '@/app/data/Categorywise/FoodsCategories';
+import AllCategoryRound from '@/components/HomePage/AllCategoryRound/AllCategoryRound';
+import { GroceryData1, GroceryData2 } from '@/app/data/GroceryPageData/GroceryData';
+import FoodProductList from '@/components/HomePage/GroceryProductList/GroceryProductList';
+import { ColdDrinksJuicesData, DairyBreadEggsData, HookahData, MouthFreshenersData, RollingPapersData, SnacksMunchiesData } from '@/app/data/GroceryPageData/GroceryProductData';
+import GroceryProductList from '@/components/HomePage/GroceryProductList/GroceryProductList';
 
 interface CategoryItem {
   id: string;
@@ -21,15 +32,15 @@ interface CategoryItem {
 }
 
 const HeaderCategory: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<string>('shoping');
+  const [activeTab, setActiveTab] = useState<string>('food');
 
   const categories: CategoryItem[] = [
-    { id: 'shoping', name: 'Shoping', icon: faStore },
     { id: 'food', name: 'Food Delivery', icon: faUtensils },
     { id: 'grocery', name: 'Grocery Delivery', icon: faBasketShopping },
+    { id: 'shoping', name: 'Shoping', icon: faStore },
     { id: 'flower', name: 'Flower Delivery', icon: faSeedling },
-    { id: 'cab', name: 'cabs', icon: faCab },
-    { id: 'care', name: 'Care', icon: faHandsHelping },
+    // { id: 'cab', name: 'cabs', icon: faCab },
+    { id: 'care', name: 'Care Services', icon: faHandsHelping },
     { id: 'pharma', name: 'Pharma', icon: faPills }
   ];
 
@@ -53,10 +64,37 @@ const HeaderCategory: React.FC = () => {
         </div>
       </div>
       <div className={styles.tabContainer}>
-        {activeTab === "shoping" && (
+
+        {activeTab === "food" && (
+          <div className={styles.allCategory}>
+            <AllCategory categories={FoodsCategories} />
+            {/* <AllCategory categories={GroceryCategories} /> */}
+            <HeroBannerAll banners={FoodHeroBannerData} />
+
+
+          </div>
+        )}
+        {activeTab === "grocery" && (
           <div className={styles.allCategory}>
             <AllCategory categories={GroceryCategories} />
-            {/* <AllCategoryOne categories={ShopingCategories} /> */}
+            {/* <AllCategory categories={GroceryCategories} /> */}
+            <HeroBannerAll banners={GroceryHeroBannerData} />
+            <AllCategoryRound categories={GroceryData1} />
+            <AllCategoryRound categories={GroceryData2} />
+            <div className={styles.GroceryProductCategory}>
+              <GroceryProductList category="Dairy, Bread & Eggs" grocery={DairyBreadEggsData} />
+              <GroceryProductList category="Rolling Paper & Tobacco" grocery={RollingPapersData} />
+              <GroceryProductList category="Snacks & Munchies" grocery={SnacksMunchiesData} />
+              <GroceryProductList category="Hookah" grocery={HookahData} />
+              <GroceryProductList category="Mouth fresheners" grocery={MouthFreshenersData} />
+              <GroceryProductList category="Cold Drinks, & Juices" grocery={ColdDrinksJuicesData} />
+            </div>
+          </div>
+        )}
+        {activeTab === "shoping" && (
+          <div className={styles.allCategory}>
+            <AllCategoryOne categories={ShopingCategories} />
+            {/* <AllCategory categories={GroceryCategories} /> */}
             <HeroBannerAll banners={ShopingHeroBannerData} />
             <ShoppingSlides1
               title="Today's Top Smartphone Deals"
@@ -66,41 +104,26 @@ const HeaderCategory: React.FC = () => {
             />
           </div>
         )}
-        {activeTab === "food" && (
-          <div className={styles.allCategory}>
-            <AllCategory categories={GroceryCategories} />
-            {/* <AllCategory categories={FoodsCategories} /> */}
-            <HeroBannerAll banners={FoodHeroBannerData} />
-          </div>
-        )}
-        {activeTab === "grocery" && (
-          <div className={styles.allCategory}>
-            <AllCategory categories={GroceryCategories} />
-            {/* <AllCategory categories={GroceryCategories} /> */}
-            <HeroBannerAll banners={GroceryHeroBannerData} />
-
-          </div>
-        )}
         {activeTab === "flower" && (
           <div className={styles.allCategory}>
-            <AllCategory categories={GroceryCategories} />
-            {/* <AllCategory categories={FlowersCategories} /> */}
+            <AllCategory categories={FlowersCategories} />
+            {/* <AllCategory categories={GroceryCategories} /> */}
             <HeroBannerAll banners={FlowerHeroBannerData} />
 
           </div>
         )}
         {activeTab === "care" && (
           <div className={styles.allCategory}>
-            <AllCategory categories={GroceryCategories} />
-            {/* <AllCategory categories={CareCategories} /> */}
+            <AllCategory categories={CareCategories} />
+            {/* <AllCategory categories={GroceryCategories} /> */}
             <HeroBannerAll banners={CareHeroBannerData} />
 
           </div>
         )}
         {activeTab === "pharma" && (
           <div className={styles.allCategory}>
-            <AllCategory categories={GroceryCategories} />
-            {/* <AllCategory categories={PharmaCategories} /> */}
+            <AllCategoryOne categories={PharmaCategories} />
+            {/* <AllCategory categories={GroceryCategories} /> */}
             <HeroBannerAll banners={PharmaHeroBannerData} />
           </div>
         )}

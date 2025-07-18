@@ -1,14 +1,14 @@
 export const FoodsCategories = [
   {
-    name: "Bhelpuri",
+    name: "Masala Bhelpuri",
     imageUrl: "/products/Bhelpuri.png",
   },
   {
-    name: "Double Egg & Cheese Sandwich",
+    name: "Double Egg Sandwich",
     imageUrl: "/products/DoubleEggCheeseSandwich.png",
   },
   {
-    name: "Tiramisu",
+    name: "Tiramisu Order",
     imageUrl: "/products/Tiramisu.png",
   },
   {
@@ -16,15 +16,15 @@ export const FoodsCategories = [
     imageUrl: "/products/ChickenPuff.png",
   },
   {
-    name: "Veg Puff",
+    name: "Veg Puff Order",
     imageUrl: "/products/VegPuff.png",
   },
   {
-    name: "Choco Walnut Brownie",
+    name: "Choco Walnut",
     imageUrl: "/products/ChocoWalnutBrownie.png",
   },
   {
-    name: "Chicken Masala Maggi",
+    name: "Masala Maggi",
     imageUrl: "/products/ChickenMasalaMaggi.png",
   },
   {
@@ -32,7 +32,7 @@ export const FoodsCategories = [
     imageUrl: "/products/Bullseyeegg2Pcs.png",
   },
   {
-    name: "Plain Curd",
+    name: "Plain Curd Matka",
     imageUrl: "/products/PlainCurd.png",
   },
   {
@@ -40,7 +40,7 @@ export const FoodsCategories = [
     imageUrl: "/products/MintMojitoFizzycooler.png",
   },
   {
-    name: "Black Pepper Maggi with Peanuts",
+    name: "Pepper Maggi",
     imageUrl: "/products/BlackPepperMaggiwithPeanuts.png",
   },
   {
