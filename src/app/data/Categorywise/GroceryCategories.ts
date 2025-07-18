@@ -11,26 +11,26 @@ export const GroceryCategories = [
     name: "Masala & Dry Fruits",
     imageUrl: "/products/MasalaDryFruits.png",
   },
-  {
-    name: "Zepto Cafe Order",
-    imageUrl: "/products/hufkoCafe.png",
-  },
+  // {
+  //   name: "Zepto Cafe Order",
+  //   imageUrl: "/products/hufkoCafe.png",
+  // },
   {
     name: "Sweet Cravings",
     imageUrl: "/products/SweetCravings.png",
   },
-  {
-    name: "Toys & Sports",
-    imageUrl: "/products/ToysSports.png",
-  },
-  {
-    name: "Apparel & Lifestyle",
-    imageUrl: "/products/ApparelLifestyle.png",
-  },
-  {
-    name: "Jewellery & Accessories",
-    imageUrl: "/products/JewelleryAccessories.png",
-  },
+  // {
+  //   name: "Toys & Sports",
+  //   imageUrl: "/products/ToysSports.png",
+  // },
+  // {
+  //   name: "Apparel & Lifestyle",
+  //   imageUrl: "/products/ApparelLifestyle.png",
+  // },
+  // {
+  //   name: "Jewellery & Accessories",
+  //   imageUrl: "/products/JewelleryAccessories.png",
+  // },
   {
     name: "Frozen Food Order",
     imageUrl: "/products/FrozenFood.png",

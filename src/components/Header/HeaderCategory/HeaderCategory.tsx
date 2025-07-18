@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './HeaderCategory.module.scss';
-import { faStore, faUtensils, faBasketShopping, faSeedling, faHandsHelping, faPills, IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { faStore, faUtensils, faBasketShopping, faSeedling, faHandsHelping, IconDefinition, faNotesMedical } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AllCategory from '../../HomePage/AllCategory/AllCategory';
 import { GroceryCategories } from '@/app/data/Categorywise/GroceryCategories';
@@ -21,7 +21,6 @@ import { PharmaCategories } from '@/app/data/Categorywise/PharmaCategories';
 import { FoodsCategories } from '@/app/data/Categorywise/FoodsCategories';
 import AllCategoryRound from '@/components/HomePage/AllCategoryRound/AllCategoryRound';
 import { GroceryData1, GroceryData2 } from '@/app/data/GroceryPageData/GroceryData';
-import FoodProductList from '@/components/HomePage/GroceryProductList/GroceryProductList';
 import { ColdDrinksJuicesData, DairyBreadEggsData, HookahData, MouthFreshenersData, RollingPapersData, SnacksMunchiesData } from '@/app/data/GroceryPageData/GroceryProductData';
 import GroceryProductList from '@/components/HomePage/GroceryProductList/GroceryProductList';
 
@@ -41,7 +40,8 @@ const HeaderCategory: React.FC = () => {
     { id: 'flower', name: 'Flower Delivery', icon: faSeedling },
     // { id: 'cab', name: 'cabs', icon: faCab },
     { id: 'care', name: 'Care Services', icon: faHandsHelping },
-    { id: 'pharma', name: 'Pharma', icon: faPills }
+    { id: 'pharma', name: 'Pharma', icon: faNotesMedical }
+    // { id: 'pharma', name: 'Pharma', icon: faPills }
   ];
 
   return (

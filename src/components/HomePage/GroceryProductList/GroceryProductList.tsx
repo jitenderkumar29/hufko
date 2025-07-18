@@ -6,7 +6,7 @@ interface Grocery {
   id: string;
   title: string;
   variant: string;
-  price: number;
+  price: number | null;  // Allow null for price
   originalPrice?: number | null;  // Allow null
   discount?: string | null;       // Change to string and allow null
   eta: string;
