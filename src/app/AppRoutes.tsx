@@ -17,6 +17,10 @@ const pages: Page[] = [
     Link: '/',
     View: dynamic(() => import('@/components/HomePage/HomePage'), { ssr: false }),
   },
+  {
+    Link: '/all-grocery-tabwise-Page',
+    View: dynamic(() => import('@/components/Grocery/GroceryAllTabWisePage/GroceryAllTabWisePage'), { ssr: false }),
+  },
 
 ];
 

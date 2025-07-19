@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styles from './GroceryProductList.module.scss';
 import { FaClock, FaChevronRight, FaChevronLeft, FaPlus, FaMinus } from 'react-icons/fa';
+import { useRouter } from 'next/navigation';
 
 interface Grocery {
   id: string;
@@ -18,13 +19,15 @@ interface Grocery {
 interface FoodProductListProps {
   category: string;
   grocery: Grocery[];
+  groceryCategory: string;
 }
 
-const GroceryProductList: React.FC<FoodProductListProps> = ({ category, grocery }) => {
+const GroceryProductList: React.FC<FoodProductListProps> = ({ category, grocery, groceryCategory }) => {
   const [quantities, setQuantities] = useState<Record<string, number>>({});
   const [showLeftNav, setShowLeftNav] = useState(false);
   const [showRightNav, setShowRightNav] = useState(false);
   const productListRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
 
   const checkScrollPosition = () => {
     if (productListRef.current) {
@@ -97,6 +100,17 @@ const GroceryProductList: React.FC<FoodProductListProps> = ({ category, grocery 
     }
   };
 
+  const handleViewAllGroceryTabwise = () => {
+    console.log("groceryCategory", groceryCategory);
+
+    // Create URLSearchParams
+    const params = new URLSearchParams();
+    params.set('category', JSON.stringify(groceryCategory));
+
+    // Navigate with the query string
+    router.push(`/all-grocery-tabwise-Page?${params.toString()}`);
+  };
+
   return (
     <div className={styles.widgetContainer}>
       <div className={styles.widgetContent}>
@@ -106,7 +120,7 @@ const GroceryProductList: React.FC<FoodProductListProps> = ({ category, grocery 
               <h2 className={styles.heading}>{category}</h2>
             </div>
           </div>
-          <div className={styles.seeAllButton}>
+          <div className={styles.seeAllButton} onClick={handleViewAllGroceryTabwise}>
             <span className={styles.buttonText}>see all</span>
             <FaChevronRight className={styles.chevronIcon} />
           </div>

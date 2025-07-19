@@ -10,7 +10,7 @@ import { FoodHeroBannerData } from '@/app/data/HeroBannerwise/FoodHero';
 import { GroceryHeroBannerData } from '@/app/data/HeroBannerwise/GroceryHero';
 import { FlowerHeroBannerData } from '@/app/data/HeroBannerwise/FlowerHero';
 import { CareHeroBannerData } from '@/app/data/HeroBannerwise/CareHero';
-import ShoppingSlides1 from '@/components/HomePage/Shopping/ShoppingSlides1/ShoppingSlides1';
+import ShoppingSlides1 from '@/components/Shopping/ShoppingSlides1/ShoppingSlides1';
 import { ShopingSlide1SmartPhoneDeals } from '@/app/data/Shoping/ShopingSlide1';
 import { PharmaHeroBannerData } from '@/app/data/HeroBannerwise/PharmaHero';
 import { ShopingCategories } from '@/app/data/Categorywise/ShopingCategories';
@@ -22,7 +22,7 @@ import { FoodsCategories } from '@/app/data/Categorywise/FoodsCategories';
 import AllCategoryRound from '@/components/HomePage/AllCategoryRound/AllCategoryRound';
 import { GroceryData1, GroceryData2 } from '@/app/data/GroceryPageData/GroceryData';
 import { CandiesGumsData, ColdDrinksJuicesData, DairyBreadEggsData, HookahData, MouthFreshenersData, RollingPapersData, SnacksMunchiesData } from '@/app/data/GroceryPageData/GroceryProductData';
-import GroceryProductList from '@/components/HomePage/GroceryProductList/GroceryProductList';
+import GroceryProductList from '@/components/Grocery/GroceryProductList/GroceryProductList';
 
 interface CategoryItem {
   id: string;
@@ -82,13 +82,13 @@ const HeaderCategory: React.FC = () => {
             <AllCategoryRound categories={GroceryData1} />
             <AllCategoryRound categories={GroceryData2} />
             <div className={styles.GroceryProductCategory}>
-              <GroceryProductList category="Dairy, Bread & Eggs" grocery={DairyBreadEggsData} />
-              <GroceryProductList category="Rolling Paper & Tobacco" grocery={RollingPapersData} />
-              <GroceryProductList category="Snacks & Munchies" grocery={SnacksMunchiesData} />
-              <GroceryProductList category="Hookah" grocery={HookahData} />
-              <GroceryProductList category="Mouth fresheners" grocery={MouthFreshenersData} />
-              <GroceryProductList category="Cold Drinks, & Juices" grocery={ColdDrinksJuicesData} />
-              <GroceryProductList category="Candies & Gums" grocery={CandiesGumsData} />
+              <GroceryProductList category="Dairy, Bread & Eggs" grocery={DairyBreadEggsData} groceryCategory="milk"/>
+              <GroceryProductList category="Rolling Paper & Tobacco" grocery={RollingPapersData} groceryCategory="tobacco"/>
+              <GroceryProductList category="Snacks & Munchies" grocery={SnacksMunchiesData} groceryCategory="snacks"/>
+              <GroceryProductList category="Hookah" grocery={HookahData} groceryCategory="Hookah"/>
+              <GroceryProductList category="Mouth fresheners" grocery={MouthFreshenersData} groceryCategory="fresheners"/>
+              <GroceryProductList category="Cold Drinks, & Juices" grocery={ColdDrinksJuicesData} groceryCategory="cold"/>
+              <GroceryProductList category="Candies & Gums" grocery={CandiesGumsData} groceryCategory="candies"/>
             </div>
           </div>
         )}

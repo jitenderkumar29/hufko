@@ -5,6 +5,7 @@ import { FaMapMarkerAlt, FaSearch } from 'react-icons/fa';
 import { IoIosArrowDown } from 'react-icons/io';
 import { ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
   const [showLocationModal, setShowLocationModal] = useState(false);
@@ -52,7 +53,9 @@ const Header = () => {
       <div className={styles.headerContainer}>
         <div className={styles.leftSection}>
           {/* <h1 className={styles.logo}>HUFKO</h1> */}
-          <Image src={"/icons/logo.png"} className={styles.logo} alt='Logo' width={521} height={117} />
+          <Link href="/">
+            <Image src={"/icons/logo.png"} className={styles.logo} alt='Logo' width={521} height={117} />
+          </Link>
           <div className={styles.locationContainer} onClick={toggleLocationModal}>
             <div className={styles.deliveryTime}>Delivery in 10 minutes</div>
             <div className={styles.deliveryLocation}>

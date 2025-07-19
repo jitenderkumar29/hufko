@@ -291,7 +291,7 @@
 }
 
 .addButton {
-  background: #00b14f;
+  background: $green;
   color: white;
   border: none;
   border-radius: 4px;
@@ -302,7 +302,7 @@
   transition: background-color 0.2s;
 
   &:hover {
-    background: #008a3c;
+    background: $green-dark;
   }
 }
 
