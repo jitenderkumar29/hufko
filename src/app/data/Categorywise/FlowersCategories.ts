@@ -57,6 +57,6 @@ export const FlowersCategories = [
   },
   {
     name: "Mixed Flower",
-    imageUrl: "/products/MixedFlowerpng",
+    imageUrl: "/products/MixedFlower.png",
   },
 ];

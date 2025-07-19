@@ -37,7 +37,7 @@ export const CareCategories = [
   },
   {
     name: "Electronics Appliances",
-    imageUrl: "/products/Electronicsappliancespng",
+    imageUrl: "/products/Electronicsappliances.png",
   },
   {
     name: "Kitchen Appliances",
