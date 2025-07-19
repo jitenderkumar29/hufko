@@ -39,8 +39,18 @@ export const ShopingCategories = [
     name: "Beauty, Food",
     imageUrl: "/products/BeautyFood.png",
   },
-  // {
-  //   name: "Grocery",
-  //   imageUrl: "/products/Grocery.png",
-  // },
+  {
+    name: "Toys & Sports",
+    imageUrl: "/products/ToysSports.png",
+  },
+  {
+    name: "Lifestyle",
+    // name: "Apparel & Lifestyle",
+    imageUrl: "/products/ApparelLifestyle.png",
+  },
+  {
+    name: "Jewellery",
+    // name: "Jewellery & Accessories",
+    imageUrl: "/products/JewelleryAccessories.png",
+  },
 ];

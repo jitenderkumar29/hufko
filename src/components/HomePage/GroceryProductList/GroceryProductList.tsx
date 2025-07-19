@@ -135,6 +135,15 @@ const GroceryProductList: React.FC<FoodProductListProps> = ({ category, grocery 
                         loading="lazy"
                         className={styles.image}
                       />
+                      {/* discount offer badge */}
+                      {grocery.discount && (
+                        <div className={styles.offerBadge}>
+                          <div className={styles.offerContent}>
+                            <span className={styles.discountText}>{grocery.discount}</span>
+                            <span className={styles.offerText}></span>
+                          </div>
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div className={styles.detailContainer}>

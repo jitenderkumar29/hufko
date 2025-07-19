@@ -161,6 +161,41 @@
   border-radius: 0;
 }
 
+// Offer Style
+.offerBadge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background: $primary-color;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.offerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+
+.discountText {
+  font-size: 14px;
+  font-weight: 700;
+  color: $white;
+}
+
+.offerText {
+  font-size: 10px;
+  font-weight: 600;
+  color: $white;
+  text-transform: uppercase;
+}
+
 .detailContainer {
   padding: 0.5rem;
   display: flex;

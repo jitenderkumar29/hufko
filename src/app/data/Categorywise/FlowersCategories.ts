@@ -39,4 +39,24 @@ export const FlowersCategories = [
     name: "Flowers by Theme",
     imageUrl: "/products/FlowersbyTheme.png",
   },
+  {
+    name: "Rose Bouquet",
+    imageUrl: "/products/RoseBouquet.png",
+  },
+  {
+    name: "Lilies Bouquet",
+    imageUrl: "/products/LiliesBouquet.png",
+  },
+  {
+    name: "Orchids Bouquet",
+    imageUrl: "/products/OrchidsBouquet.png",
+  },
+  {
+    name: "Carnation Bouquet",
+    imageUrl: "/products/CarnationBouquet.png",
+  },
+  {
+    name: "Mixed Flower",
+    imageUrl: "/products/MixedFlowerpng",
+  },
 ];

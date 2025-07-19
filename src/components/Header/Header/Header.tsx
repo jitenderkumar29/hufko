@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './Header.module.scss';
 import { FaMapMarkerAlt, FaSearch } from 'react-icons/fa';
 import { IoIosArrowDown } from 'react-icons/io';
-import { ChevronDown, ShoppingCart } from 'lucide-react';
+import { ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
 
 const Header = () => {
@@ -24,7 +24,7 @@ const Header = () => {
   };
 
   const placeholders = [
-    "Shoping",
+    "Shopping",
     "Food Delivery",
     "Grocery Delivery",
     "Flower Delivery",

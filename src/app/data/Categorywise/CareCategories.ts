@@ -31,4 +31,24 @@ export const CareCategories = [
     name: "Wall Panels Repair",
     imageUrl: "/products/WallPanels.png",
   },
+  {
+    name: "Spa & Massage",
+    imageUrl: "/products/Spa.png",
+  },
+  {
+    name: "Electronics Appliances",
+    imageUrl: "/products/Electronicsappliancespng",
+  },
+  {
+    name: "Kitchen Appliances",
+    imageUrl: "/products/Kitchenappliances.png",
+  },
+  {
+    name: "Native Products",
+    imageUrl: "/products/Nativeproducts.png",
+  },
+  {
+    name: "Installations Services",
+    imageUrl: "/products/Installationsservices.png",
+  },
 ];

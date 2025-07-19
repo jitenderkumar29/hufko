@@ -21,7 +21,7 @@ import { PharmaCategories } from '@/app/data/Categorywise/PharmaCategories';
 import { FoodsCategories } from '@/app/data/Categorywise/FoodsCategories';
 import AllCategoryRound from '@/components/HomePage/AllCategoryRound/AllCategoryRound';
 import { GroceryData1, GroceryData2 } from '@/app/data/GroceryPageData/GroceryData';
-import { ColdDrinksJuicesData, DairyBreadEggsData, HookahData, MouthFreshenersData, RollingPapersData, SnacksMunchiesData } from '@/app/data/GroceryPageData/GroceryProductData';
+import { CandiesGumsData, ColdDrinksJuicesData, DairyBreadEggsData, HookahData, MouthFreshenersData, RollingPapersData, SnacksMunchiesData } from '@/app/data/GroceryPageData/GroceryProductData';
 import GroceryProductList from '@/components/HomePage/GroceryProductList/GroceryProductList';
 
 interface CategoryItem {
@@ -36,7 +36,7 @@ const HeaderCategory: React.FC = () => {
   const categories: CategoryItem[] = [
     { id: 'food', name: 'Food Delivery', icon: faUtensils },
     { id: 'grocery', name: 'Grocery Delivery', icon: faBasketShopping },
-    { id: 'shoping', name: 'Shoping', icon: faStore },
+    { id: 'shopping', name: 'Shopping', icon: faStore },
     { id: 'flower', name: 'Flower Delivery', icon: faSeedling },
     // { id: 'cab', name: 'cabs', icon: faCab },
     { id: 'care', name: 'Care Services', icon: faHandsHelping },
@@ -88,10 +88,11 @@ const HeaderCategory: React.FC = () => {
               <GroceryProductList category="Hookah" grocery={HookahData} />
               <GroceryProductList category="Mouth fresheners" grocery={MouthFreshenersData} />
               <GroceryProductList category="Cold Drinks, & Juices" grocery={ColdDrinksJuicesData} />
+              <GroceryProductList category="Candies & Gums" grocery={CandiesGumsData} />
             </div>
           </div>
         )}
-        {activeTab === "shoping" && (
+        {activeTab === "shopping" && (
           <div className={styles.allCategory}>
             <AllCategoryOne categories={ShopingCategories} />
             {/* <AllCategory categories={GroceryCategories} /> */}
