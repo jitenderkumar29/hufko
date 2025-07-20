@@ -44,6 +44,17 @@ const HeaderCategory: React.FC = () => {
     // { id: 'pharma', name: 'Pharma', icon: faPills }
   ];
 
+  //  const handleViewAllGroceryTabwise = () => {
+  //   console.log("groceryCategory", groceryCategory);
+
+  //   // Create URLSearchParams
+  //   const params = new URLSearchParams();
+  //   params.set('category', JSON.stringify(groceryCategory));
+
+  //   // Navigate with the query string
+  //   router.push(`/all-grocery-tabwise-Page?${params.toString()}`);
+  // };
+  
   return (
     <>
       <div className={styles.headerCategory}>

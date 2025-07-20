@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import styles from './GroceryProductList.module.scss';
 import { FaClock, FaChevronRight, FaChevronLeft, FaPlus, FaMinus } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
+import Image from 'next/image';
 
 interface Grocery {
   id: string;
@@ -14,6 +16,7 @@ interface Grocery {
   pack?: string;
   weight?: string;
   imageUrl: string;
+  url?: string;
 }
 
 interface FoodProductListProps {
@@ -139,83 +142,87 @@ const GroceryProductList: React.FC<FoodProductListProps> = ({ category, grocery,
 
           <div className={styles.productListContainer} ref={productListRef}>
             {grocery.map((grocery) => (
-              <div key={grocery.id} className={styles.productCard}>
-                <div className={styles.productContainer}>
-                  <div className={styles.imageContainer}>
-                    <div className={styles.productImage}>
-                      <img
-                        src={grocery.imageUrl}
-                        alt={grocery.title}
-                        loading="lazy"
-                        className={styles.image}
-                      />
-                      {/* discount offer badge */}
-                      {grocery.discount && (
-                        <div className={styles.offerBadge}>
-                          <div className={styles.offerContent}>
-                            <span className={styles.discountText}>{grocery.discount}</span>
-                            <span className={styles.offerText}></span>
+              grocery.url ? (
+                <div key={grocery.id} className={styles.productCard}>
+                  {/* <Link href={grocery.url} key={grocery.id} className={styles.productCard}> */}
+                  <div className={styles.productContainer}>
+                    <div className={styles.imageContainer}>
+                      <Link href={grocery.url} className={styles.productImage}>
+                        <Image
+                          src={grocery.imageUrl}
+                          alt={grocery.title}
+                          loading="lazy"
+                          className={styles.image}
+                          width={200}
+                          height={200}
+                        />
+                        {/* discount offer badge */}
+                        {grocery.discount && (
+                          <div className={styles.offerBadge}>
+                            <div className={styles.offerContent}>
+                              <span className={styles.discountText}>{grocery.discount}</span>
+                              <span className={styles.offerText}></span>
+                            </div>
+                          </div>
+                        )}
+                      </Link>
+                    </div>
+                    <div className={styles.detailContainer}>
+                      <div className={styles.etaContainer}>
+                        <div className={styles.etaBadge}>
+                          <div className={styles.etaContent}>
+                            <FaClock className={styles.clockIcon} />
+                            <span className={styles.etaText}>{grocery.eta}</span>
                           </div>
                         </div>
-                      )}
-                    </div>
-                  </div>
-                  <div className={styles.detailContainer}>
-                    <div className={styles.etaContainer}>
-                      <div className={styles.etaBadge}>
-                        <div className={styles.etaContent}>
-                          <FaClock className={styles.clockIcon} />
-                          <span className={styles.etaText}>{grocery.eta}</span>
-                        </div>
                       </div>
-                    </div>
-                    <div className={styles.contentContainer}>
-                      <div className={styles.titleContainer}>
-                        <h3 className={styles.productTitle}>{grocery.title}</h3>
-                        <span className={styles.productVariant}>{grocery.variant}</span>
-                      </div>
-                      <div className={styles.priceContainer}>
-                        <div>
-                          <span className={styles.currentPrice}>₹{grocery.price}</span>
-                          {grocery.originalPrice && (
-                            <span className={styles.originalPrice}>₹{grocery.originalPrice}</span>
+                      <div className={styles.contentContainer}>
+                        <Link href={grocery.url} className={styles.titleContainer}>
+                          <h3 className={styles.productTitle}>{grocery.title}</h3>
+                          <span className={styles.productVariant}>{grocery.variant}</span>
+                        </Link>
+                        <div className={styles.priceContainer}>
+                          <div>
+                            <span className={styles.currentPrice}>₹{grocery.price}</span>
+                            {grocery.originalPrice && (
+                              <span className={styles.originalPrice}>₹{grocery.originalPrice}</span>
+                            )}
+                          </div>
+                          {quantities[grocery.id] ? (
+                            <div className={styles.quantityControl}>
+                              <button
+                                className={styles.quantityButton}
+                                onClick={() => handleDecrement(grocery.id)}
+                                aria-label="Decrease quantity"
+                              >
+                                <FaMinus />
+                                {/* <FaChevronDown /> */}
+                              </button>
+                              <span className={styles.quantityDisplay}>
+                                {quantities[grocery.id]}
+                              </span>
+                              <button
+                                className={styles.quantityButton}
+                                onClick={() => handleIncrement(grocery.id)}
+                                aria-label="Increase quantity"
+                              >
+                                <FaPlus />
+                                {/* <FaChevronUp /> */}
+                              </button>
+                            </div>
+                          ) : (
+                            <button
+                              className={styles.addButton}
+                              onClick={() => handleAddClick(grocery.id)}
+                            >
+                              ADD
+                            </button>
                           )}
                         </div>
-                        {quantities[grocery.id] ? (
-                          <div className={styles.quantityControl}>
-                            <button
-                              className={styles.quantityButton}
-                              onClick={() => handleDecrement(grocery.id)}
-                              aria-label="Decrease quantity"
-                            >
-                              <FaMinus />
-                              {/* <FaChevronDown /> */}
-                            </button>
-                            <span className={styles.quantityDisplay}>
-                              {quantities[grocery.id]}
-                            </span>
-                            <button
-                              className={styles.quantityButton}
-                              onClick={() => handleIncrement(grocery.id)}
-                              aria-label="Increase quantity"
-                            >
-                              <FaPlus />
-                              {/* <FaChevronUp /> */}
-                            </button>
-                          </div>
-                        ) : (
-                          <button
-                            className={styles.addButton}
-                            onClick={() => handleAddClick(grocery.id)}
-                          >
-                            ADD
-                          </button>
-                        )}
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                </div>) : null
             ))}
           </div>
 

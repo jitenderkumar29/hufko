@@ -6,6 +6,7 @@ import Image from 'next/image';
 interface Category {
   name: string;
   imageUrl: string;
+  url: string;
 }
 
 interface AllCategoryProps {
@@ -79,7 +80,7 @@ const AllCategory = ({ categories }: AllCategoryProps) => {
           {categories.map((category, index) => (
             <a
               key={index}
-              href="#"
+              href={category.url}
               className={styles.categoryItem}
               aria-label={category.name}
             >

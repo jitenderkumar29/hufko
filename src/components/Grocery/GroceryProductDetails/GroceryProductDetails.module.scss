@@ -1,0 +1,582 @@
+// components/GroceryProductDetails/GroceryProductDetails.module.scss
+@import '@/styles/variables.scss';
+
+.productContainer {
+  display: flex;
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 30px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+  }
+}
+
+.productLeftSection {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.productRightSection {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+// Update these styles in your SCSS file
+.mainImageContainer {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  cursor: crosshair;
+  user-select: none;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    .mainImage {
+      opacity: 0.5;
+      transition: opacity 0.3s ease;
+    }
+  }
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.zoomOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  z-index: 10;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateX(10px);
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.mainImageContainer:hover .zoomOverlay {
+  opacity: 1;
+}
+// .mainImageContainer {
+//   position: relative;
+//   width: 100%;
+//   height: 480px;
+//   cursor: crosshair;
+//   user-select: none;
+//   overflow: hidden;
+//   border-radius: 8px;
+//   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+//   @media (max-width: 1024px) {
+//     height: 400px;
+//   }
+
+//   @media (max-width: 768px) {
+//     height: 350px;
+//   }
+
+//   @media (max-width: 480px) {
+//     height: 300px;
+//   }
+// }
+
+// .mainImage {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: contain;
+//   pointer-events: none;
+// }
+
+// .zoomOverlay {
+//   position: absolute;
+//   top: 0;
+//   left: 100%;
+//   width: 100%;
+//   height: 100%;
+//   background-size: 200%;
+//   background-repeat: no-repeat;
+//   z-index: 10;
+//   border-radius: 8px;
+//   border: 1px solid #eee;
+//   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+//   transform: translateX(10px);
+
+//   @media (max-width: 768px) {
+//     display: none;
+//   }
+// }
+
+.thumbnailContainer {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.thumbnail {
+  flex: 0 0 auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: $primary-color;
+  }
+
+  @media (max-width: 480px) {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.activeThumbnail {
+  border: 2px solid $primary-color;
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.sectionHeader {
+  padding: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.sectionTitle {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #333;
+  margin: 0;
+}
+
+.highlightsContainer {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.highlightItem {
+  background: #f5f5f5;
+  min-width: 70px;
+  min-height: 70px;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.highlightLabel {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #666;
+  text-align: center;
+}
+
+.highlightValue {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.productDetails {
+  padding: 12px;
+}
+
+.detailItem {
+  margin-bottom: 12px;
+}
+
+.detailLabel {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.detailValue {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  max-height: 60px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+
+  &.expanded {
+    max-height: none;
+  }
+}
+
+.viewMoreButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  color: $primary-color;
+  font-weight: 500;
+  font-size: 0.9rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 100%;
+  justify-content: flex-start;
+
+  &:hover {
+    color: darken($primary-color, 10%);
+  }
+}
+
+.viewMoreIcon {
+  font-size: 0.8rem;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #666;
+  padding: 12px 12px 0;
+}
+
+.breadcrumbLink {
+  color: $primary-color;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.breadcrumbCurrent {
+  font-weight: 500;
+  color: #333;
+}
+
+.productName {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #333;
+  margin: 0;
+  padding: 0 12px;
+  line-height: 1.3;
+
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
+  }
+}
+
+.deliveryInfo {
+  padding: 0 12px;
+}
+
+.deliveryTime {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: #f5f5f5;
+  padding: 3px 8px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.deliveryIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.deliveryText {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.divider {
+  height: 0.5px;
+  background-color: #e8e8e8;
+  width: 100%;
+}
+
+.brandInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.brandLogoContainer {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.brandLogo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.brandDetails {
+  flex: 1;
+}
+
+.brandName {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.exploreBrand {
+  font-size: 0.75rem;
+  color: $primary-color;
+}
+
+.brandArrow {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.variantSection {
+  padding: 12px 0 0;
+}
+
+.variantContainer {
+  display: flex;
+  gap: 12px;
+  padding: 0 12px 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.variantItem {
+  min-width: 95px;
+  min-height: 64px;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: $primary-color;
+  }
+}
+
+.selectedVariant {
+  background: lighten($primary-color, 45%);
+  border-color: $primary-color;
+  box-shadow: 0 2px 6px rgba($primary-color, 0.2);
+}
+
+.variantName {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.variantPrice {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #333;
+}
+
+.priceSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  gap: 20px;
+}
+
+.priceInfo {
+  flex: 1;
+}
+
+.selectedVariantName {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #333;
+}
+
+.taxInfo {
+  font-size: 0.7rem;
+  color: #666;
+  margin-top: 2px;
+}
+
+.addToCartButton {
+  background: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  min-width: 120px;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: darken($primary-color, 10%);
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px 15px;
+    min-width: 100px;
+  }
+}
+
+.promisesSection {
+  margin-top: 20px;
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.promisesHeader {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.promisesRow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.promiseItem {
+  display: flex;
+  gap: 12px;
+  min-width: 250px;
+
+  @media (max-width: 768px) {
+    min-width: 100%;
+  }
+}
+
+.promiseIcon {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.promiseContent {
+  flex: 1;
+}
+
+.promiseTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.promiseDescription {
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}

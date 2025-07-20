@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
 import styles from './AllCategoryRound.module.scss';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 
 interface Category {
@@ -41,25 +40,25 @@ const AllCategoryRound = ({ categories }: AllCategoryProps) => {
     };
   }, []);
 
-  const scrollLeft = () => {
-    if (containerRef.current) {
-      containerRef.current.scrollBy({
-        left: -500,
-        behavior: 'smooth',
-      });
-      setActiveIndex(Math.max(0, activeIndex - 1));
-    }
-  };
+  // const scrollLeft = () => {
+  //   if (containerRef.current) {
+  //     containerRef.current.scrollBy({
+  //       left: -500,
+  //       behavior: 'smooth',
+  //     });
+  //     setActiveIndex(Math.max(0, activeIndex - 1));
+  //   }
+  // };
 
-  const scrollRight = () => {
-    if (containerRef.current) {
-      containerRef.current.scrollBy({
-        left: 500,
-        behavior: 'smooth',
-      });
-      setActiveIndex(Math.min(categories.length - visibleItems, activeIndex + 1));
-    }
-  };
+  // const scrollRight = () => {
+  //   if (containerRef.current) {
+  //     containerRef.current.scrollBy({
+  //       left: 500,
+  //       behavior: 'smooth',
+  //     });
+  //     setActiveIndex(Math.min(categories.length - visibleItems, activeIndex + 1));
+  //   }
+  // };
 
   return (
     <div className={styles.allCategoryContainer}>

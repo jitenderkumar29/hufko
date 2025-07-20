@@ -7,6 +7,7 @@ export const DairyBreadEggsData = [
     discount: "12% OFF",
     eta: "10 mins",
     imageUrl: "/products/AmulTaazaTonedMilk.png",
+    url: "/grocery-product-details?id=1",
   },
   {
     id: "2",
@@ -15,6 +16,7 @@ export const DairyBreadEggsData = [
     price: 35,
     eta: "10 mins",
     imageUrl: "/products/AmulGoldFullCreamMilk.png",
+    url: "/grocery-product-details?id=2",
   },
   {
     id: "3",
@@ -23,6 +25,7 @@ export const DairyBreadEggsData = [
     price: 35,
     eta: "10 mins",
     imageUrl: "/products/AmulMastiPouchCurd.png",
+    url: "/grocery-product-details?id=3",
   },
   {
     id: "4",
@@ -32,6 +35,7 @@ export const DairyBreadEggsData = [
     discount: "5% OFF",
     eta: "10 mins",
     imageUrl: "/products/AmulSaltedButter.png",
+    url: "/grocery-product-details?id=4",
   },
   {
     id: "5",
@@ -41,6 +45,7 @@ export const DairyBreadEggsData = [
     discount: "15% OFF",
     eta: "10 mins",
     imageUrl: "/products/MotherDairyTonedMilk.png",
+    url: "/grocery-product-details?id=5",
   },
   {
     id: "6",
@@ -49,6 +54,7 @@ export const DairyBreadEggsData = [
     price: 125,
     eta: "10 mins",
     imageUrl: "/products/HarvestGoldWhiteBread.png",
+    url: "/grocery-product-details?id=6",
   },
   {
     id: "7",
@@ -57,6 +63,7 @@ export const DairyBreadEggsData = [
     price: 32,
     eta: "10 mins",
     imageUrl: "/products/AmulCowMilk.png",
+    url: "/grocery-product-details?id=7",
   },
   {
     id: "8",
@@ -65,6 +72,7 @@ export const DairyBreadEggsData = [
     price: 65,
     eta: "10 mins",
     imageUrl: "/products/HarvestGoldAttaWholeWheatBread.png",
+    url: "/grocery-product-details?id=8",
   },
   {
     id: "9",
@@ -74,6 +82,7 @@ export const DairyBreadEggsData = [
     discount: "8% OFF",
     eta: "10 mins",
     imageUrl: "/products/MotherDairyClassicPouchPouchCurd.png",
+    url: "/grocery-product-details?id=9",
   },
   {
     id: "10",
@@ -82,6 +91,7 @@ export const DairyBreadEggsData = [
     price: 120,
     eta: "10 mins",
     imageUrl: "/products/AmulTaazaHomogenisedTonedMilk.png",
+    url: "/grocery-product-details?id=10",
   },
   {
     id: "11",
@@ -90,6 +100,7 @@ export const DairyBreadEggsData = [
     price: 40,
     eta: "10 mins",
     imageUrl: "/products/MotherDairyClassicCupCurd.png",
+    url: "/grocery-product-details?id=11",
   },
   {
     id: "12",
@@ -99,6 +110,7 @@ export const DairyBreadEggsData = [
     discount: "9% OFF",
     eta: "10 mins",
     imageUrl: "/products/HarvestGoldWhiteBread1.png",
+    url: "/grocery-product-details?id=12",
   },
   {
     id: "13",
@@ -107,6 +119,7 @@ export const DairyBreadEggsData = [
     price: 49,
     eta: "10 mins",
     imageUrl: "/products/AmulBuffaloA2Milk.png",
+    url: "/grocery-product-details?id=13",
   },
   {
     id: "14",
@@ -116,6 +129,7 @@ export const DairyBreadEggsData = [
     discount: "5% OFF",
     eta: "10 mins",
     imageUrl: "/products/MotherDairyClassicPouchCurd.png",
+    url: "/grocery-product-details?id=14",
   },
   {
     id: "15",
@@ -124,6 +138,7 @@ export const DairyBreadEggsData = [
     price: 82,
     eta: "10 mins",
     imageUrl: "/products/EnglishOvenZeromaidaAttaWheatBread.png",
+    url: "/grocery-product-details?id=15",
   },
   // Add more products as needed
 ];
@@ -137,6 +152,7 @@ export const RollingPapersData = [
     discount: "25% OFF",
     eta: "10 mins",
     imageUrl: "/products/PerfectRolledConesNaturaBongchie.png",
+    url: "/",
   },
   {
     id: "2",
@@ -146,6 +162,7 @@ export const RollingPapersData = [
     price: 90,
     eta: "10 mins",
     imageUrl: "/products/UltimateRollingPaperwithFilterTips.png",
+    url: "/",
   },
   {
     id: "3",
@@ -155,6 +172,7 @@ export const RollingPapersData = [
     discount: "20% OFF",
     eta: "10 mins",
     imageUrl: "/products/BrownRollingPaperConesStashPro.png",
+    url: "/",
   },
   {
     id: "4",
@@ -163,6 +181,7 @@ export const RollingPapersData = [
     price: 120,
     eta: "10 mins",
     imageUrl: "/products/BrownRipperRollingPaperLeaves.png",
+    url: "/",
   },
   {
     id: "5",
@@ -172,6 +191,7 @@ export const RollingPapersData = [
     price: 80,
     eta: "10 mins",
     imageUrl: "/products/UltimateRollingPaperwithFilterTips2.png",
+    url: "/",
   },
   {
     id: "6",
@@ -181,6 +201,7 @@ export const RollingPapersData = [
     discount: "22% OFF",
     eta: "10 mins",
     imageUrl: "/products/StashProBioDegradebleCrusher.png",
+    url: "/",
   },
   {
     id: "7",
@@ -190,6 +211,7 @@ export const RollingPapersData = [
     originalPrice: 90,
     eta: "10 mins",
     imageUrl: "/products/PerfectRolledConesNaturalBongchie.png",
+    url: "/",
   },
   {
     id: "8",
@@ -198,6 +220,7 @@ export const RollingPapersData = [
     price: 50,
     eta: "10 mins",
     imageUrl: "/products/BrownRollingPaperKingSizeStashPro.png", // Empty image container in HTML
+    url: "/",
   },
 ];
 export const SnacksMunchiesData = [
@@ -209,6 +232,7 @@ export const SnacksMunchiesData = [
     discount: "6% OFF",
     eta: "10 mins",
     imageUrl: "/products/KettleStudioRockSeaSalt.png",
+    url: "/",
   },
   {
     id: "2",
@@ -217,6 +241,7 @@ export const SnacksMunchiesData = [
     price: 199,
     eta: "10 mins",
     imageUrl: "/products/DOKiTokyoTeriyakiChickenJerky.png",
+    url: "/",
   },
   {
     id: "3",
@@ -225,6 +250,7 @@ export const SnacksMunchiesData = [
     price: 65,
     eta: "10 mins",
     imageUrl: "/products/KabJackpotCheeseBalls.png",
+    url: "/",
   },
   {
     id: "4",
@@ -236,6 +262,7 @@ export const SnacksMunchiesData = [
     offer: "8% OFF",
     eta: "10 mins",
     imageUrl: "/products/MoiSoiWhiteRicePaper.png",
+    url: "/",
   },
   {
     id: "5",
@@ -244,6 +271,7 @@ export const SnacksMunchiesData = [
     price: 99,
     eta: "10 mins",
     imageUrl: "/products/LoFoodsGlutenFreeMillet.png",
+    url: "/",
   },
   {
     id: "6",
@@ -253,6 +281,7 @@ export const SnacksMunchiesData = [
     discount: "15% OFF",
     eta: "10 mins",
     imageUrl: "/products/NongshimShrimpFlavouredHot.png",
+    url: "/",
   },
   {
     id: "7",
@@ -263,6 +292,7 @@ export const SnacksMunchiesData = [
     offer: "5% OFF",
     eta: "10 mins",
     imageUrl: "/products/WheafreeGlutenFreeMathi.png",
+    url: "/",
   },
 ];
 export const HookahData = [
@@ -274,6 +304,7 @@ export const HookahData = [
     discount: "10% OFF",
     eta: "10 mins",
     imageUrl: "/products/PremiumMagicCoalByStashPro.png",
+    url: "/",
   },
   {
     id: "2",
@@ -282,6 +313,7 @@ export const HookahData = [
     price: 400,
     eta: "10 mins",
     imageUrl: "/products/SiliconHookahChillum.png",
+    url: "/",
   },
   {
     id: "3",
@@ -291,6 +323,7 @@ export const HookahData = [
     discount: "15% OFF",
     eta: "10 mins",
     imageUrl: "/products/FlatCoconutHookah.png",
+    url: "/",
   },
   {
     id: "4",
@@ -299,6 +332,7 @@ export const HookahData = [
     price: 140,
     eta: "10 mins",
     imageUrl: "/products/CoconutHookahCoal.png",
+    url: "/",
   },
   {
     id: "5",
@@ -308,6 +342,7 @@ export const HookahData = [
     discount: "15% OFF",
     eta: "10 mins",
     imageUrl: "/products/PaanRaasHerbalHookah.png",
+    url: "/",
   },
   {
     id: "6",
@@ -316,6 +351,7 @@ export const HookahData = [
     price: 1200,
     eta: "10 mins",
     imageUrl: "/products/EmberPremiumSheesh.png",
+    url: "/",
   },
   {
     id: "7",
@@ -324,6 +360,7 @@ export const HookahData = [
     price: 700,
     eta: "10 mins",
     imageUrl: "/products/PumpkinHookah.png",
+    url: "/",
   },
   {
     id: "8",
@@ -332,6 +369,7 @@ export const HookahData = [
     price: 100,
     eta: "10 mins",
     imageUrl: "/products/BrainFreezeUpHerbal1.png",
+    url: "/",
   },
   {
     id: "9",
@@ -340,6 +378,7 @@ export const HookahData = [
     price: 100,
     eta: "10 mins",
     imageUrl: "/products/ChiefCommissionerHerbal.png",
+    url: "/",
   },
   // originalPrice?: number;
   // discount?: number;
@@ -356,6 +395,7 @@ export const MouthFreshenersData = [
     discount: "11% OFF",
     eta: "10 mins",
     imageUrl: "/products/RajnigandhaSilverPearls.png",
+    url: "/",
   },
   {
     id: "2",
@@ -365,6 +405,7 @@ export const MouthFreshenersData = [
     originalPrice: 299,
     eta: "10 mins",
     imageUrl: "/products/WrigleyPeppermint.png",
+    url: "/",
   },
   {
     id: "3",
@@ -375,6 +416,7 @@ export const MouthFreshenersData = [
     discount: "6% OFF",
     eta: "10 mins",
     imageUrl: "/products/WrigleyExtraWinterfresh.png",
+    url: "/",
   },
   {
     id: "4",
@@ -385,6 +427,7 @@ export const MouthFreshenersData = [
     discount: null,
     eta: "10 mins",
     imageUrl: "/products/SprayminttIcymintMouth.png",
+    url: "/",
   },
   {
     id: "5",
@@ -395,6 +438,7 @@ export const MouthFreshenersData = [
     discount: "6% OFF",
     eta: "10 mins",
     imageUrl: "/products/WrigleySpearmintRain.png",
+    url: "/",
   },
   {
     id: "6",
@@ -404,6 +448,7 @@ export const MouthFreshenersData = [
     originalPrice: 90,
     eta: "10 mins",
     imageUrl: "/products/PassPassMintyMixMouth.png",
+    url: "/",
   },
   {
     id: "7",
@@ -414,6 +459,7 @@ export const MouthFreshenersData = [
     discount: "5% OFF",
     eta: "10 mins",
     imageUrl: "/products/TridentSpearmintGum.png",
+    url: "/",
   },
 ];
 
@@ -427,6 +473,7 @@ export const ColdDrinksJuicesData = [
     originalPrice: null,
     eta: "10 mins",
     imageUrl: "/products/CocaColaSoftDrink.png",
+    url: "/",
   },
   {
     id: "2",
@@ -436,6 +483,7 @@ export const ColdDrinksJuicesData = [
     originalPrice: null,
     eta: "10 mins",
     imageUrl: "/products/IceCubesbyDrasIce.png",
+    url: "/",
   },
   {
     id: "3",
@@ -446,6 +494,7 @@ export const ColdDrinksJuicesData = [
     originalPrice: null,
     eta: "10 mins",
     imageUrl: "/products/ThumsUpSoftDrink.png",
+    url: "/",
   },
   {
     id: "4",
@@ -455,6 +504,7 @@ export const ColdDrinksJuicesData = [
     originalPrice: null,
     eta: "10 mins",
     imageUrl: "/products/CocaColaDietCokeSoftDrink.png",
+    url: "/",
   },
   {
     id: "5",
@@ -465,6 +515,7 @@ export const ColdDrinksJuicesData = [
     originalPrice: null,
     eta: "10 mins",
     imageUrl: "/products/BisleriPackagedater.png",
+    url: "/",
   },
   {
     id: "6",
@@ -474,6 +525,7 @@ export const ColdDrinksJuicesData = [
     originalPrice: null,
     eta: "10 mins",
     imageUrl: "/products/AmulLactoseFreeMilk.png",
+    url: "/",
   },
   {
     id: "7",
@@ -483,6 +535,7 @@ export const ColdDrinksJuicesData = [
     originalPrice: null,
     eta: "10 mins",
     imageUrl: "/products/CocaColaDietCokeSoftDrink2.png",
+    url: "/",
   },
   {
     id: "8",
@@ -493,6 +546,7 @@ export const ColdDrinksJuicesData = [
     originalPrice: 80,
     eta: "10 mins",
     imageUrl: "/products/SparklingIceCubesbyBurrf.png",
+    url: "/",
   },
   {
     id: "9",
@@ -502,6 +556,7 @@ export const ColdDrinksJuicesData = [
     originalPrice: null,
     eta: "10 mins",
     imageUrl: "/products/CocaColaZeroSugarSoftDrink.png",
+    url: "/",
   },
 ];
 
@@ -515,6 +570,7 @@ export const CandiesGumsData = [
     originalPrice: 50,
     eta: "8 mins",
     imageUrl: "/products/HappydentWaveSugarfree.png",
+    url: "/",
   },
   {
     id: "2",
@@ -524,6 +580,7 @@ export const CandiesGumsData = [
     originalPrice: null,
     eta: "8 mins",
     imageUrl: "/products/OrbitSpearmintFlavour.png",
+    url: "/",
   },
   {
     id: "3",
@@ -534,6 +591,7 @@ export const CandiesGumsData = [
     originalPrice: 60,
     eta: "8 mins",
     imageUrl: "/products/PulseKachchaAam.png",
+    url: "/",
   },
   {
     id: "4",
@@ -543,6 +601,7 @@ export const CandiesGumsData = [
     originalPrice: 90,
     eta: "8 mins",
     imageUrl: "/products/ChupaChupsSourBelt.png",
+    url: "/",
   },
   {
     id: "5",
@@ -552,6 +611,7 @@ export const CandiesGumsData = [
     originalPrice: null,
     eta: "8 mins",
     imageUrl: "/products/GODESITangyImli.png",
+    url: "/",
   },
   {
     id: "6",
@@ -562,6 +622,7 @@ export const CandiesGumsData = [
     originalPrice: 30,
     eta: "8 mins",
     imageUrl: "/products/ParlePoppins.png",
+    url: "/",
   },
   {
     id: "7",
@@ -571,5 +632,6 @@ export const CandiesGumsData = [
     originalPrice: 299,
     eta: "8 mins",
     imageUrl: "/products/WrigleyPeppermint2.png",
+    url: "/",
   },
 ];

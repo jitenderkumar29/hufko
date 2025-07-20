@@ -21,7 +21,10 @@ const pages: Page[] = [
     Link: '/all-grocery-tabwise-Page',
     View: dynamic(() => import('@/components/Grocery/GroceryAllTabWisePage/GroceryAllTabWisePage'), { ssr: false }),
   },
-
+  {
+    Link: '/grocery-product-details',
+    View: dynamic(() => import('@/components/Grocery/GroceryProductDetails/GroceryProductDetails'), { ssr: false }),
+  },
 ];
 
 const AppRoutes: FC = () => {
