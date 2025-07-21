@@ -210,7 +210,7 @@ export const GroceryAllTabWiseAttaData = [
         id: '22',
         name: 'Quinoa Flour',
         description: 'Protein-rich superfood flour',
-        image: '/products/Quinoa-Flourpng',
+        image: '/products/Quinoa-Flour.png',
         quantity: '500 g',
         price: 180,
         deliveryTime: '30 mins'
