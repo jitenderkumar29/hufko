@@ -699,7 +699,7 @@ export const GroceryAllTabWiseAttaData = [
     id: 'dals',
     name: 'Dals & Pulses',
     description: 'Protein-rich dals and pulses for nutritious meals',
-    imageCategory: '/products/Dals-Pulsespng',
+    imageCategory: '/products/Dals-Pulses.png',
     products: [
       {
         id: '1',
