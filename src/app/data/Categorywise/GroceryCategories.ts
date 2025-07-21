@@ -2,12 +2,12 @@ export const GroceryCategories = [
   {
     name: "Fruits & Vegetables",
     imageUrl: "/products/fruitsVegetables.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=fruits",
   },
   {
     name: "Atta, Rice, Oil & Dals",
     imageUrl: "/products/AttaRiceOilDals.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=atta",
   },
   {
     name: "Masala & Dry Fruits",
@@ -53,7 +53,7 @@ export const GroceryCategories = [
   {
     name: "Dairy, Bread & Eggs",
     imageUrl: "/products/DairyBreadEggs.png",
-    url: '/all-grocery-tabwise-Page?category="milk"',
+    url: "/all-grocery-tabwise-Page?category=milk",
   },
   // { name: "Dairy, Bread", imageUrl: "/products/DairyBreadEggs.png" },
   {

@@ -1,4 +1,4 @@
-export const AllGroceryTabWiseData = [
+export const AllGroceryTabWiseMilkData = [
   {
     id: 'milk',
     name: 'Milk',
@@ -416,6 +416,42 @@ export const AllGroceryTabWiseData = [
         discount: 25,
         deliveryTime: '10 mins',
       },
+      {
+        id: '21',
+        name: 'Harvest Gold - White Bread',
+        image: '/products/HarvestGoldWhiteBread3.png',
+        quantity: '350 g',
+        price: 40,
+        discount: 25,
+        deliveryTime: '10 mins',
+      },
+      {
+        id: '22',
+        name: 'Harvest Gold - White Bread',
+        image: '/products/HarvestGoldWhiteBread2.png',
+        quantity: '350 g',
+        price: 35,
+        discount: 10,
+        deliveryTime: '10 mins',
+      },
+      {
+        id: '23',
+        name: 'Harvest Gold - White Bread',
+        image: '/products/HarvestGoldWhiteBread1.png',
+        quantity: '350 g',
+        price: 25,
+        discount: 5,
+        deliveryTime: '10 mins',
+      },
+      {
+        id: '24',
+        name: 'Harvest Gold - White Bread',
+        image: '/products/HarvestGoldWhiteBread2.png',
+        quantity: '350 g',
+        price: 45,
+        discount: 25,
+        deliveryTime: '10 mins',
+      },
       // Add more bread products...
     ],
   },
@@ -664,16 +700,16 @@ export const AllGroceryTabWiseData = [
         discount: 30,
         deliveryTime: '10 mins',
       },
-      {
-        id: '25',
-        name: 'Table White Eggs',
-        image: '/products/TableWhiteEggs.png',
-        quantity: '10 pieces',
-        price: 41,
-        originalPrice: 140,
-        discount: 35,
-        deliveryTime: '10 mins',
-      },
+      // {
+      //   id: '25',
+      //   name: 'Table White Eggs',
+      //   image: '/products/TableWhiteEggs.png',
+      //   quantity: '10 pieces',
+      //   price: 41,
+      //   originalPrice: 140,
+      //   discount: 35,
+      //   deliveryTime: '10 mins',
+      // },
       // Add more egg products...
     ],
   },
@@ -689,7 +725,7 @@ export const AllGroceryTabWiseData = [
         quantity: "375 g",
         price: 225,
         originalPrice: 225,
-        discount: 0,
+        discount: 20,
         deliveryTime: "8 mins"
       },
       {
@@ -719,7 +755,7 @@ export const AllGroceryTabWiseData = [
         quantity: "60 g",
         price: 299,
         originalPrice: 299,
-        discount: 0,
+        discount: 10,
         deliveryTime: "14 mins"
       },
       {
@@ -729,7 +765,7 @@ export const AllGroceryTabWiseData = [
         quantity: "360 g",
         price: 235,
         originalPrice: 235,
-        discount: 0,
+        discount: 15,
         deliveryTime: "8 mins"
       },
       {
@@ -759,7 +795,7 @@ export const AllGroceryTabWiseData = [
         quantity: "325 g",
         price: 255,
         originalPrice: 255,
-        discount: 0,
+        discount: 5,
         deliveryTime: "8 mins"
       },
       {
@@ -769,7 +805,7 @@ export const AllGroceryTabWiseData = [
         quantity: "250 g",
         price: 125,
         originalPrice: 125,
-        discount: 0,
+        discount: 25,
         deliveryTime: "8 mins"
       },
       {
@@ -789,7 +825,7 @@ export const AllGroceryTabWiseData = [
         quantity: "385 g",
         price: 215,
         originalPrice: 215,
-        discount: 0,
+        discount: 35,
         deliveryTime: "8 mins"
       },
       {
@@ -809,7 +845,7 @@ export const AllGroceryTabWiseData = [
         quantity: "375 g",
         price: 225,
         originalPrice: 225,
-        discount: 0,
+        discount: 30,
         deliveryTime: "8 mins"
       },
       {
@@ -839,7 +875,7 @@ export const AllGroceryTabWiseData = [
         quantity: "60 g",
         price: 299,
         originalPrice: 299,
-        discount: 0,
+        discount: 25,
         deliveryTime: "14 mins"
       },
       {
@@ -849,7 +885,7 @@ export const AllGroceryTabWiseData = [
         quantity: "360 g",
         price: 235,
         originalPrice: 235,
-        discount: 0,
+        discount: 20,
         deliveryTime: "8 mins"
       },
       {
@@ -879,7 +915,7 @@ export const AllGroceryTabWiseData = [
         quantity: "325 g",
         price: 255,
         originalPrice: 255,
-        discount: 0,
+        discount: 15,
         deliveryTime: "8 mins"
       },
       {
@@ -889,7 +925,7 @@ export const AllGroceryTabWiseData = [
         quantity: "250 g",
         price: 125,
         originalPrice: 125,
-        discount: 0,
+        discount: 10,
         deliveryTime: "8 mins"
       },
       {
@@ -909,7 +945,7 @@ export const AllGroceryTabWiseData = [
         quantity: "385 g",
         price: 215,
         originalPrice: 215,
-        discount: 0,
+        discount: 5,
         deliveryTime: "8 mins"
       },
       {
@@ -947,7 +983,7 @@ export const AllGroceryTabWiseData = [
         quantity: "450 g",
         price: 405,
         originalPrice: 405,
-        discount: 0,
+        discount: 10,
         deliveryTime: "8 mins"
       },
       {
@@ -957,7 +993,7 @@ export const AllGroceryTabWiseData = [
         quantity: "450 g",
         price: 405,
         originalPrice: 405,
-        discount: 0,
+        discount: 15,
         deliveryTime: "8 mins"
       },
       {
@@ -1039,7 +1075,17 @@ export const AllGroceryTabWiseData = [
         originalPrice: 60,
         discount: 8,
         deliveryTime: "8 mins"
-      }
+      },
+      {
+        id: "12",
+        name: "Tata Soulfull Millet Muesli With 80% Fruits, Nut & Wholegrain Cereal",
+        image: "/products/TataSoulfullMillet1.png",
+        quantity: "700 g",
+        price: 352,
+        originalPrice: 549,
+        discount: 35,
+        deliveryTime: "8 mins"
+      },
     ]
   },
   {
