@@ -13,6 +13,7 @@ export const GroceryCategories = [
     name: "Masala & Dry Fruits",
     imageUrl: "/products/MasalaDryFruits.png",
     url: "/",
+    // url: "/all-grocery-tabwise-Page?category=spices",
   },
   // {
   //   name: "Zepto Cafe Order",

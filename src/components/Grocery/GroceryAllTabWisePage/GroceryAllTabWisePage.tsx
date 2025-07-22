@@ -7,6 +7,7 @@ import { AllGroceryTabWiseMilkData } from '@/app/data/GroceryPageData/GroceryAll
 import { useSearchParams } from 'next/navigation';
 import { AllGroceryTabWiseVegData } from '@/app/data/GroceryPageData/GroceryAllTabWiseVegData';
 import { GroceryAllTabWiseAttaData } from '@/app/data/GroceryPageData/GroceryAllTabWiseAttaData';
+import { GroceryAllTabwiseMasalaData } from '@/app/data/GroceryPageData/GroceryAllTabWiseMasalaData';
 
 const AllGroceryTabWisePage = () => {
   const [groceryCategory, setGroceryCategory] = useState<string>();
@@ -32,6 +33,7 @@ const AllGroceryTabWisePage = () => {
       {/* <HeaderCategory /> */}
       {groceryCategory === "fruits" && (<AllCategoryTabWise categories={AllGroceryTabWiseVegData} initialActiveCategory="fruits" />)}
       {groceryCategory === "atta" && (<AllCategoryTabWise categories={GroceryAllTabWiseAttaData} initialActiveCategory="atta" />)}
+      {/* {groceryCategory === "spices" && (<AllCategoryTabWise categories={GroceryAllTabwiseMasalaData} initialActiveCategory="spices" />)} */}
       {groceryCategory === "milk" && (<AllCategoryTabWise categories={AllGroceryTabWiseMilkData} initialActiveCategory="milk" />)}
 
       <Footer />
