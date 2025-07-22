@@ -60,7 +60,7 @@ export const GroceryCategories = [
   {
     name: "Cold Drinks & Juices",
     imageUrl: "/products/ColdDrinksJuices.png",
-    url: "/all-grocery-tabwise-Page?category=chocolates",
+    url: "/all-grocery-tabwise-Page?category=Carbonated-Soft-Drinks",
   },
   {
     name: "Munchies Masala",

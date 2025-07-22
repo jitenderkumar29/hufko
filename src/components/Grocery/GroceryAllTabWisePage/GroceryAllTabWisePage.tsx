@@ -45,8 +45,8 @@ const AllGroceryTabWisePage = () => {
       {groceryCategory === "familyTubs" && (<AllCategoryTabWise categories={GroceryAllTabWiseIceCreamData} initialActiveCategory="familyTubs" />)}
       {groceryCategory === "cannedFoods" && (<AllCategoryTabWise categories={GroceryAllTabWisePackFoodData} initialActiveCategory="cannedFoods" />)}
       {groceryCategory === "milk" && (<AllCategoryTabWise categories={AllGroceryTabWiseMilkData} initialActiveCategory="milk" />)}
-      {groceryCategory === "chocolates" && (<AllCategoryTabWise categories={GroceryAllTabWiseDrinkData} initialActiveCategory="chocolates" />)}
-      {groceryCategory === "Masala-Peanuts-Chana" && (<AllCategoryTabWise categories={GroceryAllTabWiseMunchiesData} initialActiveCategory="Masala-Peanuts-Chana" />)}
+      {groceryCategory === "Carbonated-Soft-Drinks" && (<AllCategoryTabWise categories={GroceryAllTabWiseDrinkData} initialActiveCategory="Carbonated-Soft-Drinks" />)}
+      {/* {groceryCategory === "Masala-Peanuts-Chana" && (<AllCategoryTabWise categories={GroceryAllTabWiseMunchiesData} initialActiveCategory="Masala-Peanuts-Chana" />)} */}
 
       <Footer />
     </div>
