@@ -12,8 +12,8 @@ export const GroceryCategories = [
   {
     name: "Masala & Dry Fruits",
     imageUrl: "/products/MasalaDryFruits.png",
-    url: "/",
-    // url: "/all-grocery-tabwise-Page?category=spices",
+    url: "/all-grocery-tabwise-Page?category=spices",
+    // url: "/",
   },
   // {
   //   name: "Zepto Cafe Order",
@@ -22,7 +22,7 @@ export const GroceryCategories = [
   {
     name: "Sweet Cravings",
     imageUrl: "/products/SweetCravings.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=chocolates",
   },
   // {
   //   name: "Toys & Sports",
@@ -39,17 +39,17 @@ export const GroceryCategories = [
   {
     name: "Frozen Food Order",
     imageUrl: "/products/FrozenFood.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=frozen-snacks",
   },
   {
     name: "Ice Creams & More",
     imageUrl: "/products/IceCreamsMore.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=familyTubs",
   },
   {
     name: "Packaged Food",
     imageUrl: "/products/PackagedFood.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=cannedFoods",
   },
   {
     name: "Dairy, Bread & Eggs",
@@ -60,9 +60,13 @@ export const GroceryCategories = [
   {
     name: "Cold Drinks & Juices",
     imageUrl: "/products/ColdDrinksJuices.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=chocolates",
   },
-  { name: "Munchies Masala", imageUrl: "/products/Munchies.png", url: "/" },
+  {
+    name: "Munchies Masala",
+    imageUrl: "/products/Munchies.png",
+    url: "/all-grocery-tabwise-Page?category=Masala-Peanuts-Chana",
+  },
   {
     name: "Meats, Fish & Eggs",
     imageUrl: "/products/MeatsFishEggs.png",
