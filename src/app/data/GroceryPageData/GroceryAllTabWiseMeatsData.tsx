@@ -1,0 +1,743 @@
+export const GroceryAllTabWiseMeatsData = [
+  {
+    id: "fresh-chicken-mutton",
+    name: "Fresh Chicken Mutton",
+    description: "Freshly cut chicken and mutton for curries, biryanis, grills and more. Delivered hygienically packed.",
+    imageCategory: "/products/fresh-chicken-mutton.png",
+    products: [
+      {
+        id: "1",
+        name: "Chicken Curry Cut (Small Pieces)",
+        description: "Fresh skinless chicken cut into small curry-friendly pieces.",
+        image: "/products/chicken-curry-cut.png",
+        quantity: "500 g",
+        price: 139,
+        discount: 18,
+        originalPrice: 169,
+        deliveryTime: "90 mins",
+        // tags: ["chicken", "fresh", "bone-in", "curry", "non-veg"]
+      },
+      {
+        id: "2",
+        name: "Chicken Biryani Cut (Large Pieces)",
+        description: "Larger, juicy cuts ideal for biryanis and slow-cooked meals.",
+        image: "/products/chicken-biryani-cut.png",
+        quantity: "1 kg",
+        price: 265,
+        discount: 12,
+        originalPrice: 299,
+        deliveryTime: "90 mins",
+        // tags: ["chicken", "large cut", "biryani", "fresh"]
+      },
+      {
+        id: "3",
+        name: "Chicken Boneless Breast",
+        description: "Tender, skinless breast pieces ideal for grilling or stir-fry.",
+        image: "/products/chicken-boneless-breast.png",
+        quantity: "450 g",
+        price: 199,
+        discount: 10,
+        originalPrice: 219,
+        deliveryTime: "90 mins",
+        // tags: ["boneless", "chicken", "low-fat", "stir-fry"]
+      },
+      {
+        id: "4",
+        name: "Chicken Drumsticks",
+        description: "Juicy and skinless chicken drumsticks for fry, grill, or curry.",
+        image: "/products/chicken-drumsticks.png",
+        quantity: "500 g",
+        price: 145,
+        discount: 9,
+        originalPrice: 159,
+        deliveryTime: "90 mins",
+        // tags: ["chicken", "drumsticks", "grill", "juicy"]
+      },
+      {
+        id: "5",
+        name: "Chicken Liver (Kaleji)",
+        description: "Fresh and nutrient-rich chicken liver, ideal for quick fry dishes.",
+        image: "/products/chicken-liver.png",
+        quantity: "250 g",
+        price: 59,
+        discount: 14,
+        originalPrice: 69,
+        deliveryTime: "90 mins",
+        // tags: ["organ", "chicken", "liver", "fresh"]
+      },
+      {
+        id: "6",
+        name: "Mutton Curry Cut (Bone-in)",
+        description: "Goat meat cut into medium-sized pieces with bone, perfect for rich curries.",
+        image: "/products/mutton-curry-cut.png",
+        quantity: "500 g",
+        price: 375,
+        discount: 6,
+        originalPrice: 399,
+        deliveryTime: "90 mins",
+        // tags: ["mutton", "goat", "curry", "bone-in"]
+      },
+      {
+        id: "7",
+        name: "Mutton Boneless Cubes",
+        description: "Lean and tender mutton cubes, best suited for pulao, stew and kebabs.",
+        image: "/products/mutton-boneless.png",
+        quantity: "300 g",
+        price: 365,
+        discount: 8,
+        originalPrice: 399,
+        deliveryTime: "90 mins",
+        // tags: ["mutton", "boneless", "tender", "premium"]
+      },
+      {
+        id: "8",
+        name: "Mutton Biryani Cut (Large Pieces)",
+        description: "Large cuts of goat meat with bone, perfect for slow-cooked biryani dishes.",
+        image: "/products/mutton-biryani-cut.png",
+        quantity: "500 g",
+        price: 389,
+        discount: 7,
+        originalPrice: 419,
+        deliveryTime: "90 mins",
+        // tags: ["mutton", "biryani", "goat", "large cut"]
+      },
+      {
+        id: "9",
+        name: "Mutton Liver (Kaleji)",
+        description: "Rich in iron, freshly cut mutton liver for spicy fry or curry dishes.",
+        image: "/products/mutton-liver.png",
+        quantity: "250 g",
+        price: 115,
+        discount: 8,
+        originalPrice: 125,
+        deliveryTime: "90 mins",
+        // tags: ["organ", "mutton", "liver", "iron-rich"]
+      },
+      {
+        id: "10",
+        name: "Mutton Mince (Keema)",
+        description: "Freshly minced goat meat for kebabs, keema pav, or keema curry.",
+        image: "/products/mutton-keema.png",
+        quantity: "300 g",
+        price: 345,
+        discount: 10,
+        originalPrice: 385,
+        deliveryTime: "90 mins",
+        // tags: ["mince", "mutton", "keema", "ground meat"]
+      },
+      {
+        id: "11",
+        name: "Chicken Keema (Minced)",
+        description: "Fresh minced chicken – lean and great for meatballs, tacos, or rolls.",
+        image: "/products/chicken-keema.png",
+        quantity: "500 g",
+        price: 169,
+        discount: 15,
+        originalPrice: 199,
+        deliveryTime: "90 mins",
+        // tags: ["mince", "chicken", "keema", "ground meat"]
+      },
+      {
+        id: "12",
+        name: "Mixed Chicken & Mutton Combo",
+        description: "A pack of chicken curry cut + mutton boneless – ideal for family meals.",
+        image: "/products/chicken-mutton-combo.png",
+        quantity: "1.2 kg",
+        price: 535,
+        discount: 11,
+        originalPrice: 599,
+        deliveryTime: "90 mins",
+        // tags: ["combo", "chicken", "mutton", "family pack"]
+      }
+    ]
+  },
+  {
+    id: "fresh-fish-seafood",
+    name: "Fresh Fish Seafood",
+    description: "Wide range of fresh water and sea fish, cleaned and cut, ready for cooking. Hygienically packed and delivered fresh.",
+    imageCategory: "/products/fresh-fish-seafood.png",
+    products: [
+      {
+        id: "1",
+        name: "Rohu (Rui) Medium Cut",
+        description: "Freshwater Rohu fish cut into medium curry pieces. Cleaned and ready to cook.",
+        image: "/products/rohu-medium-cut.png",
+        quantity: "500 g",
+        price: 199,
+        discount: 10,
+        originalPrice: 219,
+        deliveryTime: "90 mins",
+        // tags: ["fish", "rohu", "freshwater", "curry", "cut"]
+      },
+      {
+        id: "2",
+        name: "Katla Fish Large Cut",
+        description: "Delicious Katla fish, thick cut, perfect for frying or curry.",
+        image: "/products/katla-large-cut.png",
+        quantity: "500 g",
+        price: 215,
+        discount: 8,
+        originalPrice: 235,
+        deliveryTime: "90 mins",
+        // tags: ["fish", "katla", "large cut", "fresh"]
+      },
+      {
+        id: "3",
+        name: "Salmon Fillet (Skinless)",
+        description: "Premium Norwegian salmon fillet, boneless & skinless.",
+        image: "/products/salmon-fillet.png",
+        quantity: "250 g",
+        price: 525,
+        discount: 7,
+        originalPrice: 565,
+        deliveryTime: "90 mins",
+        // tags: ["salmon", "fillet", "premium", "boneless", "seafood"]
+      },
+      {
+        id: "4",
+        name: "Prawns Medium (Cleaned & Deveined)",
+        description: "Fresh medium-sized prawns, cleaned and deveined.",
+        image: "/products/prawns-medium.png",
+        quantity: "250 g",
+        price: 299,
+        discount: 12,
+        originalPrice: 339,
+        deliveryTime: "90 mins",
+        // tags: ["prawns", "seafood", "deveined", "cleaned"]
+      },
+      {
+        id: "5",
+        name: "Tiger Prawns Jumbo",
+        description: "Juicy jumbo tiger prawns, great for grill and curry.",
+        image: "/products/tiger-prawns-jumbo.png",
+        quantity: "250 g",
+        price: 445,
+        discount: 9,
+        originalPrice: 489,
+        deliveryTime: "90 mins",
+        // tags: ["prawns", "tiger", "jumbo", "seafood"]
+      },
+      {
+        id: "6",
+        name: "Bombay Duck (Bombil) Cleaned",
+        description: "Fresh Bombil fish cleaned and ready for deep fry.",
+        image: "/products/bombay-duck.png",
+        quantity: "250 g",
+        price: 139,
+        discount: 6,
+        originalPrice: 149,
+        deliveryTime: "90 mins",
+        // tags: ["bombil", "duck", "fish", "cleaned", "seafood"]
+      },
+      {
+        id: "7",
+        name: "Indian Mackerel (Bangda) Whole Cleaned",
+        description: "Whole Bangda fish cleaned and gutted, ideal for frying.",
+        image: "/products/bangda-whole.png",
+        quantity: "500 g",
+        price: 185,
+        discount: 10,
+        originalPrice: 205,
+        deliveryTime: "90 mins",
+        // tags: ["mackerel", "bangda", "fish", "whole", "fresh"]
+      },
+      {
+        id: "8",
+        name: "Hilsa (Ilish) Sliced",
+        description: "Premium Hilsa slices with rich flavor. Ideal for Bengali cuisine.",
+        image: "/products/hilsa-sliced.png",
+        quantity: "500 g",
+        price: 825,
+        discount: 5,
+        originalPrice: 869,
+        deliveryTime: "90 mins",
+        // tags: ["hilsa", "ilish", "fish", "premium"]
+      },
+      {
+        id: "9",
+        name: "Surmai (King Fish) Steaks",
+        description: "Boneless Surmai steaks, excellent for grilling and curry.",
+        image: "/products/surmai-steaks.png",
+        quantity: "300 g",
+        price: 495,
+        discount: 8,
+        originalPrice: 539,
+        deliveryTime: "90 mins",
+        // tags: ["surmai", "king fish", "steak", "boneless"]
+      },
+      {
+        id: "10",
+        name: "Pomfret White (Whole Cleaned)",
+        description: "Whole white pomfret cleaned, ready for masala fry or curry.",
+        image: "/products/pomfret-white.png",
+        quantity: "400 g",
+        price: 429,
+        discount: 6,
+        originalPrice: 459,
+        deliveryTime: "90 mins",
+        // tags: ["pomfret", "whole", "white", "cleaned"]
+      },
+      {
+        id: "11",
+        name: "Crab (Mud Crab) Cut & Cleaned",
+        description: "Fresh mud crab pieces cut and cleaned for quick cooking.",
+        image: "/products/mud-crab.png",
+        quantity: "500 g",
+        price: 369,
+        discount: 10,
+        originalPrice: 409,
+        deliveryTime: "90 mins",
+        // tags: ["crab", "seafood", "mud crab", "cleaned"]
+      },
+      {
+        id: "12",
+        name: "Seafood Combo Pack",
+        description: "Includes fish slices, prawns, and squid rings – perfect for mixed seafood dishes.",
+        image: "/products/seafood-combo.png",
+        quantity: "1 kg",
+        price: 649,
+        discount: 11,
+        originalPrice: 729,
+        deliveryTime: "90 mins",
+        // tags: ["combo", "seafood", "mix", "prawns", "squid"]
+      }
+    ]
+  },
+  {
+    id: "cold-cuts-sausages",
+    name: 'Cold Cuts Sausages',
+    description: "Pre-cooked and ready-to-eat meat slices, sausages, and frankfurters – perfect for sandwiches, salads, grills, and snacks.",
+    imageCategory: "/products/cold-cuts-sausages.png",
+    products: [
+      {
+        id: "1",
+        name: "Chicken Salami (Classic)",
+        description: "Ready-to-eat chicken salami slices – ideal for sandwiches and rolls.",
+        image: "/products/chicken-salami-classic.png",
+        quantity: "200 g",
+        price: 115,
+        discount: 9,
+        originalPrice: 126,
+        deliveryTime: "90 mins",
+        // tags: ["salami", "chicken", "cold cut", "ready-to-eat"]
+      },
+      {
+        id: "2",
+        name: "Chicken Frankfurters",
+        description: "Juicy chicken frankfurters, great for hotdogs and grilling.",
+        image: "/products/chicken-frankfurters.png",
+        quantity: "250 g (5 pcs)",
+        price: 139,
+        discount: 10,
+        originalPrice: 155,
+        deliveryTime: "90 mins",
+        // tags: ["frankfurters", "chicken", "sausages", "grill"]
+      },
+      {
+        id: "3",
+        name: "Smoked Chicken Sausages",
+        description: "Smoked, spiced chicken sausages – pre-cooked and ready to sizzle.",
+        image: "/products/smoked-chicken-sausages.png",
+        quantity: "200 g",
+        price: 149,
+        discount: 12,
+        originalPrice: 169,
+        deliveryTime: "90 mins",
+        // tags: ["sausages", "chicken", "smoked", "cold cut"]
+      },
+      {
+        id: "4",
+        name: "Chicken Mortadella with Olives",
+        description: "Delicately sliced chicken mortadella blended with green olives.",
+        image: "/products/mortadella-olive.png",
+        quantity: "200 g",
+        price: 165,
+        discount: 10,
+        originalPrice: 184,
+        deliveryTime: "90 mins",
+        // tags: ["mortadella", "chicken", "olives", "cold cut"]
+      },
+      {
+        id: "5",
+        name: "Chicken Pepperoni Slices",
+        description: "Zesty pepperoni chicken slices for pizzas and snacks.",
+        image: "/products/chicken-pepperoni.png",
+        quantity: "100 g",
+        price: 119,
+        discount: 8,
+        originalPrice: 129,
+        deliveryTime: "90 mins",
+        // tags: ["pepperoni", "chicken", "pizza", "spicy"]
+      },
+      {
+        id: "6",
+        name: "Pork Cocktail Sausages",
+        description: "Mini pork sausages, perfect for appetizers and party platters.",
+        image: "/products/pork-cocktail-sausages.png",
+        quantity: "250 g",
+        price: 189,
+        discount: 10,
+        originalPrice: 210,
+        deliveryTime: "90 mins",
+        // tags: ["pork", "cocktail", "sausages", "party"]
+      },
+      {
+        id: "7",
+        name: "Pork Salami (Garlic Flavour)",
+        description: "Garlic-flavored pork salami, thinly sliced and pre-cooked.",
+        image: "/products/pork-salami-garlic.png",
+        quantity: "150 g",
+        price: 165,
+        discount: 9,
+        originalPrice: 182,
+        deliveryTime: "90 mins",
+        // tags: ["pork", "salami", "garlic", "cold cut"]
+      },
+      {
+        id: "8",
+        name: "Chicken Cheese Sausages",
+        description: "Juicy chicken sausages filled with cheese. Great for pan-fry or air-fry.",
+        image: "/products/chicken-cheese-sausages.png",
+        quantity: "250 g",
+        price: 169,
+        discount: 11,
+        originalPrice: 189,
+        deliveryTime: "90 mins",
+        // tags: ["sausages", "chicken", "cheese", "snack"]
+      },
+      {
+        id: "9",
+        name: "Chicken Ham Slices (Smoked)",
+        description: "Thinly sliced smoked chicken ham – ready to use in salads and sandwiches.",
+        image: "/products/chicken-ham-slices.png",
+        quantity: "150 g",
+        price: 135,
+        discount: 10,
+        originalPrice: 150,
+        deliveryTime: "90 mins",
+        // tags: ["ham", "chicken", "smoked", "cold cut"]
+      },
+      {
+        id: "10",
+        name: "Pork Bacon Strips",
+        description: "Crispy pork bacon strips – ideal for breakfast and wraps.",
+        image: "/products/pork-bacon.png",
+        quantity: "200 g",
+        price: 215,
+        discount: 7,
+        originalPrice: 230,
+        deliveryTime: "90 mins",
+        // tags: ["pork", "bacon", "strips", "breakfast"]
+      },
+      {
+        id: "11",
+        name: "Veg Cocktail Sausages (Soya)",
+        description: "Vegetarian soya-based sausages, ideal for quick frying.",
+        image: "/products/veg-soya-sausages.png",
+        quantity: "250 g",
+        price: 115,
+        discount: 8,
+        originalPrice: 125,
+        deliveryTime: "90 mins",
+        // tags: ["veg", "sausages", "soya", "meat-free"]
+      },
+      {
+        id: "12",
+        name: "Mixed Sausage Platter (Chicken & Pork)",
+        description: "A mix of chicken and pork sausages in one tray – grill, fry or bake.",
+        image: "/products/sausage-mixed-platter.png",
+        quantity: "500 g",
+        price: 299,
+        discount: 10,
+        originalPrice: 335,
+        deliveryTime: "90 mins",
+        // tags: ["combo", "sausages", "mixed", "chicken", "pork"]
+      }
+    ]
+  },
+  {
+    id: 'Eggs-Egg-Products',
+    name: 'Eggs & Egg Products',
+    description: 'Eggs & Egg Products.',
+    imageCategory: '/products/Eggs-Egg-Products.png',
+    products: [
+      {
+        id: "1",
+        name: "Farm Fresh White Eggs - 6 pcs",
+        description: "Protein-rich, clean and hygienically packed white eggs.",
+        image: "/products/white-eggs-6pcs.png",
+        quantity: "6 pcs",
+        price: 45,
+        discount: 10,
+        originalPrice: 50,
+        deliveryTime: "8"
+      },
+      {
+        id: "2",
+        name: "Brown Eggs - 12 pcs",
+        description: "Natural brown eggs, high in protein and nutrition.",
+        image: "/products/brown-eggs-12pcs.png",
+        quantity: "12 pcs",
+        price: 98,
+        discount: 12,
+        originalPrice: 112,
+        deliveryTime: "9"
+      },
+      {
+        id: "3",
+        name: "Country Eggs - 6 pcs",
+        description: "Desi eggs laid by free-range hens. Natural and nutritious.",
+        image: "/products/country-eggs.png",
+        quantity: "6 pcs",
+        price: 65,
+        discount: 8,
+        originalPrice: 70,
+        deliveryTime: "7"
+      },
+      {
+        id: "4",
+        name: "Organic Eggs - 10 pcs",
+        description: "Organic farm eggs, free from antibiotics and hormones.",
+        image: "/products/organic-eggs.png",
+        quantity: "10 pcs",
+        price: 110,
+        discount: 15,
+        originalPrice: 129,
+        deliveryTime: "8"
+      },
+      {
+        id: "5",
+        name: "Quail Eggs - 12 pcs",
+        description: "Tiny, nutritious quail eggs with a delicate taste.",
+        image: "/products/quail-eggs.png",
+        quantity: "12 pcs",
+        price: 60,
+        discount: 9,
+        originalPrice: 66,
+        deliveryTime: "9"
+      },
+      {
+        id: "6",
+        name: "Emu Eggs - 1 pc",
+        description: "Large emu egg rich in omega-3 and protein.",
+        image: "/products/emu-egg.png",
+        quantity: "1 pc",
+        price: 180,
+        discount: 10,
+        originalPrice: 200,
+        deliveryTime: "10"
+      },
+      {
+        id: "7",
+        name: "Boiled White Eggs - 4 pcs",
+        description: "Ready-to-eat boiled white eggs, great for salads.",
+        image: "/products/boiled-white-eggs.png",
+        quantity: "4 pcs",
+        price: 40,
+        discount: 11,
+        originalPrice: 45,
+        deliveryTime: "6"
+      },
+      {
+        id: "8",
+        name: "Egg Whites - 500 ml",
+        description: "Liquid egg whites, perfect for high-protein recipes.",
+        image: "/products/liquid-egg-whites.png",
+        quantity: "500 ml",
+        price: 130,
+        discount: 13,
+        originalPrice: 149,
+        deliveryTime: "7"
+      },
+      {
+        id: "9",
+        name: "Egg Yolk Powder - 100g",
+        description: "Dried egg yolk powder for baking and cooking.",
+        image: "/products/egg-yolk-powder.png",
+        quantity: "100 g",
+        price: 115,
+        discount: 10,
+        originalPrice: 128,
+        deliveryTime: "8"
+      },
+      {
+        id: "10",
+        name: "Omelette Mix - 250ml",
+        description: "Ready-made egg omelette mix with herbs and seasoning.",
+        image: "/products/omelette-mix.png",
+        quantity: "250 ml",
+        price: 75,
+        discount: 9,
+        originalPrice: 82,
+        deliveryTime: "7"
+      },
+      {
+        id: "11",
+        name: "Scrambled Egg Mix - 250ml",
+        description: "Liquid scrambled egg mix for quick breakfasts.",
+        image: "/products/scrambled-egg-mix.png",
+        quantity: "250 ml",
+        price: 80,
+        discount: 11,
+        originalPrice: 90,
+        deliveryTime: "8"
+      },
+      {
+        id: "12",
+        name: "Pasteurized Whole Eggs - 1L",
+        description: "High-quality pasteurized eggs for safe consumption.",
+        image: "/products/pasteurized-eggs.png",
+        quantity: "1 L",
+        price: 160,
+        discount: 12,
+        originalPrice: 182,
+        deliveryTime: "9"
+      }
+    ]
+  },
+  {
+    id: 'Frozen-Meat-Seafood',
+    name: 'Frozen-Meat-Seafood',
+    description: 'Frozen Meat & Seafood.',
+    imageCategory: '/products/Frozen-Meat-Seafood.png',
+    products: [
+      {
+        id: "1",
+        name: "Frozen Chicken Nuggets - 500g",
+        description: "Crispy, ready-to-fry chicken nuggets. Ideal for snacks.",
+        image: "/products/frozen-chicken-nuggets.png",
+        quantity: "500 g",
+        price: 179,
+        discount: 10,
+        originalPrice: 199,
+        deliveryTime: "8"
+      },
+      {
+        id: "2",
+        name: "Chicken Seekh Kebab - 300g",
+        description: "Juicy frozen chicken seekh kebabs with rich spices.",
+        image: "/products/chicken-seekh-kebab.png",
+        quantity: "300 g",
+        price: 165,
+        discount: 12,
+        originalPrice: 189,
+        deliveryTime: "9"
+      },
+      {
+        id: "3",
+        name: "Mutton Keema - 250g",
+        description: "Minced mutton, cleaned and frozen for freshness.",
+        image: "/products/frozen-mutton-keema.png",
+        quantity: "250 g",
+        price: 225,
+        discount: 10,
+        originalPrice: 250,
+        deliveryTime: "9"
+      },
+      {
+        id: "4",
+        name: "Frozen Fish Fillet - 500g",
+        description: "Boneless white fish fillets, perfect for grilling or frying.",
+        image: "/products/frozen-fish-fillet.png",
+        quantity: "500 g",
+        price: 310,
+        discount: 13,
+        originalPrice: 356,
+        deliveryTime: "8"
+      },
+      {
+        id: "5",
+        name: "Prawns Medium - Cleaned & Deveined - 250g",
+        description: "Frozen prawns, peeled and deveined. Ready to cook.",
+        image: "/products/frozen-prawns.png",
+        quantity: "250 g",
+        price: 215,
+        discount: 10,
+        originalPrice: 239,
+        deliveryTime: "9"
+      },
+      {
+        id: "6",
+        name: "Chicken Popcorn - 400g",
+        description: "Crispy, bite-sized chicken popcorn for quick frying.",
+        image: "/products/chicken-popcorn.png",
+        quantity: "400 g",
+        price: 149,
+        discount: 8,
+        originalPrice: 162,
+        deliveryTime: "8"
+      },
+      {
+        id: "7",
+        name: "Fish Fingers - 300g",
+        description: "Breaded fish fingers. Fry until golden and crispy.",
+        image: "/products/fish-fingers.png",
+        quantity: "300 g",
+        price: 135,
+        discount: 10,
+        originalPrice: 150,
+        deliveryTime: "9"
+      },
+      {
+        id: "8",
+        name: "Chicken Sausages - 250g",
+        description: "Frozen chicken sausages, perfect for breakfast meals.",
+        image: "/products/chicken-sausages.png",
+        quantity: "250 g",
+        price: 110,
+        discount: 9,
+        originalPrice: 121,
+        deliveryTime: "7"
+      },
+      {
+        id: "9",
+        name: "Prawn Tempura - 200g",
+        description: "Frozen prawn tempura coated in light crispy batter.",
+        image: "/products/prawn-tempura.png",
+        quantity: "200 g",
+        price: 189,
+        discount: 11,
+        originalPrice: 212,
+        deliveryTime: "8"
+      },
+      {
+        id: "10",
+        name: "Frozen Squid Rings - 250g",
+        description: "Pre-cleaned squid rings, ideal for calamari dishes.",
+        image: "/products/frozen-squid-rings.png",
+        quantity: "250 g",
+        price: 185,
+        discount: 10,
+        originalPrice: 205,
+        deliveryTime: "9"
+      },
+      {
+        id: "11",
+        name: "Chicken Salami Slices - 250g",
+        description: "Frozen chicken salami, thinly sliced. Great for sandwiches.",
+        image: "/products/chicken-salami.png",
+        quantity: "250 g",
+        price: 105,
+        discount: 7,
+        originalPrice: 113,
+        deliveryTime: "7"
+      },
+      {
+        id: "12",
+        name: "Crab Meat - 200g",
+        description: "Frozen crab meat, cleaned and ready to use.",
+        image: "/products/crab-meat.png",
+        quantity: "200 g",
+        price: 230,
+        discount: 10,
+        originalPrice: 255,
+        deliveryTime: "9"
+      }
+    ]
+  },
+];
+
+
+// Marinated & Ready-to-Cook Meats
+// Bacon, Ham & Salami
+// Exotic & Imported Meats

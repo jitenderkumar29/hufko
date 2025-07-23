@@ -5,7 +5,6 @@ import Footer from '@/components/Footer/Footer'
 import styles from './GroceryAllTabWisePage.module.scss';
 import { AllGroceryTabWiseMilkData } from '@/app/data/GroceryPageData/GroceryAllTabWiseMilkData';
 import { useSearchParams } from 'next/navigation';
-import { AllGroceryTabWiseVegData } from '@/app/data/GroceryPageData/GroceryAllTabWiseVegData';
 import { GroceryAllTabWiseAttaData } from '@/app/data/GroceryPageData/GroceryAllTabWiseAttaData';
 import { GroceryAllTabwiseMasalaData } from '@/app/data/GroceryPageData/GroceryAllTabWiseMasalaData';
 import { GroceryAllTabWiseSweetData } from '@/app/data/GroceryPageData/GroceryAllTabWiseSweetData';
@@ -14,6 +13,14 @@ import { GroceryAllTabWiseIceCreamData } from '@/app/data/GroceryPageData/Grocer
 import { GroceryAllTabWisePackFoodData } from '@/app/data/GroceryPageData/GroceryAllTabWisePackFoodData';
 import { GroceryAllTabWiseDrinkData } from '@/app/data/GroceryPageData/GroceryAllTabWiseDrinkData';
 import { GroceryAllTabWiseMunchiesData } from '@/app/data/GroceryPageData/GroceryAllTabWiseMunchiesData';
+import { GroceryAllTabWiseMeatsData } from '@/app/data/GroceryPageData/GroceryAllTabWiseMeatsData';
+import { GroceryAllTabWiseBreakfastData } from '@/app/data/GroceryPageData/GroceryAllTabWiseBreakfastData';
+import { GroceryAllTabWiseCoffeeData } from '@/app/data/GroceryPageData/GroceryAllTabWiseCoffeeData';
+import { GroceryAllTabWisePaanData } from '@/app/data/GroceryPageData/GroceryAllTabWisePaanData';
+import { GroceryAllTabWiseBakeryData } from '@/app/data/GroceryPageData/GroceryAllTabWiseBakeryData';
+import { GroceryAllTabWiseOrganicData } from '@/app/data/GroceryPageData/GroceryAllTabWiseOrganicData';
+import { GroceryAllTabWiseBabyCareData } from '@/app/data/GroceryPageData/GroceryAllTabWiseBabyCareData';
+import { GroceryAllTabWiseFruitsData } from '@/app/data/GroceryPageData/GroceryAllTabWiseFruitsData';
 
 const AllGroceryTabWisePage = () => {
   const [groceryCategory, setGroceryCategory] = useState<string>();
@@ -37,7 +44,7 @@ const AllGroceryTabWisePage = () => {
     <div className={styles.container}>
       <Header />
       {/* <HeaderCategory /> */}
-      {groceryCategory === "fruits" && (<AllCategoryTabWise categories={AllGroceryTabWiseVegData} initialActiveCategory="fruits" />)}
+      {groceryCategory === "fruits" && (<AllCategoryTabWise categories={GroceryAllTabWiseFruitsData} initialActiveCategory="fruits" />)}
       {groceryCategory === "atta" && (<AllCategoryTabWise categories={GroceryAllTabWiseAttaData} initialActiveCategory="atta" />)}
       {groceryCategory === "spices" && (<AllCategoryTabWise categories={GroceryAllTabwiseMasalaData} initialActiveCategory="spices" />)}
       {groceryCategory === "chocolates" && (<AllCategoryTabWise categories={GroceryAllTabWiseSweetData} initialActiveCategory="chocolates" />)}
@@ -46,7 +53,17 @@ const AllGroceryTabWisePage = () => {
       {groceryCategory === "cannedFoods" && (<AllCategoryTabWise categories={GroceryAllTabWisePackFoodData} initialActiveCategory="cannedFoods" />)}
       {groceryCategory === "milk" && (<AllCategoryTabWise categories={AllGroceryTabWiseMilkData} initialActiveCategory="milk" />)}
       {groceryCategory === "Carbonated-Soft-Drinks" && (<AllCategoryTabWise categories={GroceryAllTabWiseDrinkData} initialActiveCategory="Carbonated-Soft-Drinks" />)}
-      {/* {groceryCategory === "Masala-Peanuts-Chana" && (<AllCategoryTabWise categories={GroceryAllTabWiseMunchiesData} initialActiveCategory="Masala-Peanuts-Chana" />)} */}
+      {groceryCategory === "Masala-Peanuts-Chana" && (<AllCategoryTabWise categories={GroceryAllTabWiseMunchiesData} initialActiveCategory="Masala-Peanuts-Chana" />)}
+      {groceryCategory === "fresh-chicken-mutton" && (<AllCategoryTabWise categories={GroceryAllTabWiseMeatsData} initialActiveCategory="fresh-chicken-mutton" />)}
+      {groceryCategory === "Breakfast-Cereals-Muesli" && (<AllCategoryTabWise categories={GroceryAllTabWiseBreakfastData} initialActiveCategory="Breakfast-Cereals-Muesli" />)}
+      {groceryCategory === "Amul-Kool-Cafe" && (<AllCategoryTabWise categories={GroceryAllTabWiseCoffeeData} initialActiveCategory="Amul-Kool-Cafe" />)}
+
+      {/*  */}
+      {groceryCategory === "Meetha-Paan" && (<AllCategoryTabWise categories={GroceryAllTabWisePaanData} initialActiveCategory="Meetha-Paan" />)}
+      {groceryCategory === "Breads-Buns" && (<AllCategoryTabWise categories={GroceryAllTabWiseBakeryData} initialActiveCategory="Breads-Buns" />)}
+      {groceryCategory === "Organic-Staples" && (<AllCategoryTabWise categories={GroceryAllTabWiseOrganicData} initialActiveCategory="Organic-Staples" />)}
+      {/* {groceryCategory === "Organic-Staples" && (<AllCategoryTabWise categories={GroceryAllTabWiseOrganicData} initialActiveCategory="Organic-Staples" />)} */}
+      {/* {groceryCategory === "Diapers-Wipes" && (<AllCategoryTabWise categories={GroceryAllTabWiseBabyCareData} initialActiveCategory="Diapers-Wipes" />)} */}
 
       <Footer />
     </div>

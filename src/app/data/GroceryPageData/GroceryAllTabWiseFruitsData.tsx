@@ -1,4 +1,4 @@
-export const AllGroceryTabWiseVegData = [
+export const GroceryAllTabWiseFruitsData = [
   {
     id: 'fruits',
     name: 'Fresh Fruits',

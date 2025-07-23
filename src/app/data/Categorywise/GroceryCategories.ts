@@ -70,17 +70,17 @@ export const GroceryCategories = [
   {
     name: "Meats, Fish & Eggs",
     imageUrl: "/products/MeatsFishEggs.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=fresh-chicken-mutton",
   },
   {
     name: "Breakfast & Sauces",
     imageUrl: "/products/BreakfastSauces.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=Breakfast-Cereals-Muesli",
   },
   {
     name: "Tea, Coffee & More",
     imageUrl: "/products/TeaCoffeeMore.png",
-    url: "/",
+    url: "/all-grocery-tabwise-Page?category=Amul-Kool-Cafe",
   },
   // {
   //   name: "Sugar",
