@@ -23,7 +23,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g',
         price: 110,
         discount: 18,
-        deliveryTime: '12 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -33,7 +33,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '360 g',
         price: 85,
         discount: 10,
-        deliveryTime: '15 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -53,7 +53,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '500 g',
         price: 115,
         discount: 20,
-        deliveryTime: '12 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -63,7 +63,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g',
         price: 135,
         discount: 10,
-        deliveryTime: '14 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -73,7 +73,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g',
         price: 95,
         discount: 12,
-        deliveryTime: '15 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -83,7 +83,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g',
         price: 125,
         discount: 15,
-        deliveryTime: '13 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -103,7 +103,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '320 g',
         price: 145,
         discount: 10,
-        deliveryTime: '14 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -113,7 +113,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '425 g',
         price: 115,
         discount: 18,
-        deliveryTime: '12 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -123,7 +123,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g',
         price: 135,
         discount: 17,
-        deliveryTime: '13 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -141,7 +141,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '500 g',
         price: 195,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -151,7 +151,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g',
         price: 210,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -161,7 +161,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '250 g',
         price: 249,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -171,7 +171,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g',
         price: 230,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -181,7 +181,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '500 g',
         price: 240,
         discount: 11,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -191,7 +191,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '250 g',
         price: 120,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -201,7 +201,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '200 g',
         price: 299,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -211,7 +211,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g',
         price: 270,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -221,7 +221,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g',
         price: 265,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -231,7 +231,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '500 g',
         price: 285,
         discount: 13,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -241,7 +241,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g',
         price: 240,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -251,7 +251,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '250 g',
         price: 325,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -269,7 +269,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (5 pcs)',
         price: 95,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -279,7 +279,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '360 g (6 pcs)',
         price: 89,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -289,7 +289,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (4 pcs)',
         price: 120,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -299,7 +299,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g (3 pcs)',
         price: 140,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -309,7 +309,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (4 pcs)',
         price: 110,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -319,7 +319,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g (3 pcs)',
         price: 95,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -329,7 +329,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (4 pcs)',
         price: 125,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -339,7 +339,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '360 g (5 pcs)',
         price: 105,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -349,7 +349,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g (4 pcs)',
         price: 90,
         discount: 11,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -359,7 +359,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g (3 pcs)',
         price: 145,
         discount: 13,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -369,7 +369,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '350 g (4 pcs)',
         price: 99,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -379,7 +379,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (4 pcs)',
         price: 130,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -397,7 +397,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '250 g',
         price: 135,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -407,7 +407,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '280 g',
         price: 149,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -417,7 +417,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g',
         price: 159,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -427,7 +427,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g',
         price: 145,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -437,7 +437,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '275 g',
         price: 169,
         discount: 14,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -447,7 +447,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '260 g',
         price: 140,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -457,7 +457,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '320 g',
         price: 175,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -467,7 +467,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '290 g',
         price: 160,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -477,7 +477,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '350 g',
         price: 155,
         discount: 13,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -487,7 +487,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g',
         price: 180,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -497,7 +497,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '275 g',
         price: 150,
         discount: 11,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -507,7 +507,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '280 g',
         price: 165,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -525,7 +525,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '1 kg',
         price: 75,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -535,7 +535,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '500 g',
         price: 85,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -545,7 +545,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '1 kg',
         price: 95,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -555,7 +555,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g (2 pcs)',
         price: 99,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -565,7 +565,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '280 g (2 pcs)',
         price: 89,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -575,7 +575,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '500 g',
         price: 82,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -585,7 +585,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g (4 pcs)',
         price: 90,
         discount: 11,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -595,7 +595,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '350 g',
         price: 110,
         discount: 13,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -605,7 +605,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '250 g',
         price: 105,
         discount: 14,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -615,7 +615,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '1 kg',
         price: 80,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -625,7 +625,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '500 g',
         price: 90,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -635,7 +635,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '500 g',
         price: 85,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -653,7 +653,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (5 pcs)',
         price: 80,
         discount: 11,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -663,7 +663,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (5 pcs)',
         price: 85,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -673,7 +673,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (5 pcs)',
         price: 89,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -683,7 +683,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g (3 pcs)',
         price: 75,
         discount: 13,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -693,7 +693,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (4 pcs)',
         price: 95,
         discount: 14,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -703,7 +703,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (4 pcs)',
         price: 88,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -713,7 +713,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g (2 pcs)',
         price: 99,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -723,7 +723,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '250 g (4 pcs)',
         price: 72,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -733,7 +733,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (4 pcs)',
         price: 98,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -743,7 +743,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (5 pcs)',
         price: 94,
         discount: 11,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -753,7 +753,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '300 g (3 pcs)',
         price: 85,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -763,7 +763,7 @@ export const GroceryAllTabWiseFrozenData = [
         quantity: '400 g (4 pcs)',
         price: 92,
         discount: 13,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },

@@ -21,6 +21,11 @@ import { GroceryAllTabWiseBakeryData } from '@/app/data/GroceryPageData/GroceryA
 import { GroceryAllTabWiseOrganicData } from '@/app/data/GroceryPageData/GroceryAllTabWiseOrganicData';
 import { GroceryAllTabWiseBabyCareData } from '@/app/data/GroceryPageData/GroceryAllTabWiseBabyCareData';
 import { GroceryAllTabWiseFruitsData } from '@/app/data/GroceryPageData/GroceryAllTabWiseFruitsData';
+import { GroceryAllTabWisePharmaData } from '@/app/data/GroceryPageData/GroceryAllTabWisePharmaData';
+import { GroceryAllTabWiseCleningData } from '@/app/data/GroceryPageData/GroceryAllTabWiseCleningData';
+import { GroceryAllTabWiseHomeOfficeData } from '@/app/data/GroceryPageData/GroceryAllTabWiseHomeOfficeData';
+import { GroceryAllTabWisePersonalCareData } from '@/app/data/GroceryPageData/GroceryAllTabWisePersonalCareData';
+import { GroceryAllTabWisePetCareData } from '@/app/data/GroceryPageData/GroceryAllTabWisePetCareData';
 
 const AllGroceryTabWisePage = () => {
   const [groceryCategory, setGroceryCategory] = useState<string>();
@@ -62,8 +67,12 @@ const AllGroceryTabWisePage = () => {
       {groceryCategory === "Meetha-Paan" && (<AllCategoryTabWise categories={GroceryAllTabWisePaanData} initialActiveCategory="Meetha-Paan" />)}
       {groceryCategory === "Breads-Buns" && (<AllCategoryTabWise categories={GroceryAllTabWiseBakeryData} initialActiveCategory="Breads-Buns" />)}
       {groceryCategory === "Organic-Staples" && (<AllCategoryTabWise categories={GroceryAllTabWiseOrganicData} initialActiveCategory="Organic-Staples" />)}
-      {/* {groceryCategory === "Organic-Staples" && (<AllCategoryTabWise categories={GroceryAllTabWiseOrganicData} initialActiveCategory="Organic-Staples" />)} */}
-      {/* {groceryCategory === "Diapers-Wipes" && (<AllCategoryTabWise categories={GroceryAllTabWiseBabyCareData} initialActiveCategory="Diapers-Wipes" />)} */}
+      {groceryCategory === "Diapers-Wipes" && (<AllCategoryTabWise categories={GroceryAllTabWiseBabyCareData} initialActiveCategory="Diapers-Wipes" />)}
+      {groceryCategory === "Medicines-OTC" && (<AllCategoryTabWise categories={GroceryAllTabWisePharmaData} initialActiveCategory="Medicines-OTC" />)}
+      {groceryCategory === "Floor-Surface-Cleaners" && (<AllCategoryTabWise categories={GroceryAllTabWiseCleningData} initialActiveCategory="Floor-Surface-Cleaners" />)}
+      {groceryCategory === "Stationery-Essentials" && (<AllCategoryTabWise categories={GroceryAllTabWiseHomeOfficeData} initialActiveCategory="Stationery-Essentials" />)}
+      {groceryCategory === "Bath-Body" && (<AllCategoryTabWise categories={GroceryAllTabWisePersonalCareData} initialActiveCategory="Bath-Body" />)}
+      {groceryCategory === "Pet-Food" && (<AllCategoryTabWise categories={GroceryAllTabWisePetCareData} initialActiveCategory="Pet-Food" />)}
 
       <Footer />
     </div>

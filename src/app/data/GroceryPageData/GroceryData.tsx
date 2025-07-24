@@ -75,32 +75,32 @@ export const GroceryData2 = [
   {
     name: "Baby Care & More",
     imageUrl: "/products/BabyCare.png",
-    url: "/",
-    // url: "/all-grocery-tabwise-Page?category=Diapers-Wipes",
+    url: "/all-grocery-tabwise-Page?category=Diapers-Wipes",
+    // url: "/",
   },
   {
     name: "Pharma & Wellness",
     imageUrl: "/products/PharmaWellness.png",
-    url: "/all-grocery-tabwise-Page?category=",
+    url: "/all-grocery-tabwise-Page?category=Medicines-OTC",
   },
   {
     name: "Clening Essentials",
     imageUrl: "/products/CleningEssentials.png",
-    url: "/all-grocery-tabwise-Page?category=",
+    url: "/all-grocery-tabwise-Page?category=Floor-Surface-Cleaners",
   },
   {
     name: "Home & Office",
     imageUrl: "/products/HomeOffice.png",
-    url: "/all-grocery-tabwise-Page?category=",
+    url: "/all-grocery-tabwise-Page?category=Stationery-Essentials",
   },
   {
     name: "Personal Care",
     imageUrl: "/products/PersonalCare.png",
-    url: "/all-grocery-tabwise-Page?category=",
+    url: "/all-grocery-tabwise-Page?category=Bath-Body",
   },
   {
     name: "Pet Care & More",
     imageUrl: "/products/PetCare.png",
-    url: "/all-grocery-tabwise-Page?category=",
+    url: "/all-grocery-tabwise-Page?category=Pet-Food",
   },
 ]

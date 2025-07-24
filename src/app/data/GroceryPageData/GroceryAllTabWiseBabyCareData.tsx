@@ -14,7 +14,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 999,
         originalPrice: 1149,
         discount: 13,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -25,7 +25,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 899,
         originalPrice: 1025,
         discount: 12,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -36,7 +36,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 820,
         originalPrice: 910,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -47,7 +47,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 1049,
         originalPrice: 1199,
         discount: 13,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -58,7 +58,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 799,
         originalPrice: 925,
         discount: 14,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -69,7 +69,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 719,
         originalPrice: 799,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -80,7 +80,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 159,
         originalPrice: 180,
         discount: 12,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -91,7 +91,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 165,
         originalPrice: 185,
         discount: 11,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -102,7 +102,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 149,
         originalPrice: 165,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -113,7 +113,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 175,
         originalPrice: 195,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -124,7 +124,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 549,
         originalPrice: 599,
         discount: 8,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -135,7 +135,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 1175,
         originalPrice: 1299,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -154,7 +154,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 165,
         originalPrice: 185,
         discount: 11,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -165,7 +165,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 55,
         originalPrice: 60,
         discount: 8,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -176,7 +176,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 480,
         originalPrice: 530,
         discount: 9,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -187,7 +187,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 180,
         originalPrice: 199,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -198,7 +198,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 235,
         originalPrice: 250,
         discount: 6,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -209,7 +209,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 210,
         originalPrice: 235,
         discount: 11,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -220,7 +220,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 515,
         originalPrice: 570,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -231,7 +231,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 49,
         originalPrice: 55,
         discount: 11,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -242,7 +242,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 295,
         originalPrice: 329,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -253,7 +253,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 170,
         originalPrice: 199,
         discount: 15,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -264,7 +264,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 585,
         originalPrice: 645,
         discount: 9,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -275,7 +275,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 190,
         originalPrice: 220,
         discount: 13,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -294,7 +294,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 479,
         originalPrice: 599,
         discount: 20,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -305,7 +305,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 219,
         originalPrice: 275,
         discount: 20,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -316,7 +316,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 1049,
         originalPrice: 1299,
         discount: 19,
-        deliveryTime: "2 hrs"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -327,7 +327,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 259,
         originalPrice: 310,
         discount: 16,
-        deliveryTime: "2 hrs"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -338,7 +338,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 449,
         originalPrice: 525,
         discount: 14,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -349,7 +349,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 1599,
         originalPrice: 1899,
         discount: 16,
-        deliveryTime: "2 hrs"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -360,7 +360,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 699,
         originalPrice: 795,
         discount: 12,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -371,7 +371,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 1850,
         originalPrice: 2199,
         discount: 16,
-        deliveryTime: "2 hrs"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -382,7 +382,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 349,
         originalPrice: 399,
         discount: 13,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -393,7 +393,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 169,
         originalPrice: 199,
         discount: 15,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -404,7 +404,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 279,
         originalPrice: 329,
         discount: 15,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -415,7 +415,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 199,
         originalPrice: 235,
         discount: 15,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -434,7 +434,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 155,
         originalPrice: 180,
         discount: 14,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -445,7 +445,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 199,
         originalPrice: 249,
         discount: 20,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -456,7 +456,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 85,
         originalPrice: 99,
         discount: 14,
-        deliveryTime: "2 hrs"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -467,7 +467,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 199,
         originalPrice: 239,
         discount: 17,
-        deliveryTime: "2 hrs"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -478,7 +478,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 259,
         originalPrice: 299,
         discount: 13,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -489,7 +489,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 75,
         originalPrice: 89,
         discount: 16,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -500,7 +500,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 1899,
         originalPrice: 2499,
         discount: 24,
-        deliveryTime: "2 hrs"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -511,7 +511,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 375,
         originalPrice: 435,
         discount: 14,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -522,7 +522,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 249,
         originalPrice: 285,
         discount: 13,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -533,7 +533,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 115,
         originalPrice: 135,
         discount: 15,
-        deliveryTime: "2 hrs"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -544,7 +544,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 299,
         originalPrice: 349,
         discount: 14,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -555,7 +555,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 149,
         originalPrice: 175,
         discount: 15,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -574,7 +574,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 89,
         originalPrice: 99,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -585,7 +585,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 299,
         originalPrice: 349,
         discount: 14,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -596,7 +596,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 88,
         originalPrice: 99,
         discount: 11,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -607,7 +607,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 125,
         originalPrice: 140,
         discount: 11,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -618,7 +618,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 265,
         originalPrice: 285,
         discount: 7,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -629,7 +629,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 199,
         originalPrice: 230,
         discount: 13,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -640,7 +640,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 849,
         originalPrice: 999,
         discount: 15,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -651,7 +651,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 189,
         originalPrice: 199,
         discount: 5,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -662,7 +662,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 105,
         originalPrice: 115,
         discount: 9,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -673,7 +673,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 699,
         originalPrice: 799,
         discount: 13,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -684,7 +684,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 349,
         originalPrice: 399,
         discount: 13,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -695,7 +695,7 @@ export const GroceryAllTabWiseBabyCareData = [
         price: 225,
         originalPrice: 250,
         discount: 10,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },

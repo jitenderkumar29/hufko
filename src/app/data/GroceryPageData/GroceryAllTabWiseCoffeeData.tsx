@@ -14,7 +14,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 25,
         discount: 11,
         originalPrice: 28,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -25,7 +25,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 35,
         discount: 13,
         originalPrice: 40,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -36,7 +36,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 36,
         discount: 10,
         originalPrice: 40,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -47,7 +47,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 28,
         discount: 12,
         originalPrice: 32,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -58,7 +58,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 75,
         discount: 17,
         originalPrice: 90,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -69,7 +69,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 79,
         discount: 12,
         originalPrice: 90,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -80,7 +80,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 85,
         discount: 6,
         originalPrice: 90,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -91,7 +91,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 30,
         discount: 14,
         originalPrice: 35,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -102,7 +102,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 95,
         discount: 5,
         originalPrice: 100,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -113,7 +113,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 32,
         discount: 9,
         originalPrice: 35,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -124,7 +124,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 25,
         discount: 10,
         originalPrice: 28,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -135,7 +135,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 39,
         discount: 13,
         originalPrice: 45,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -154,7 +154,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 25,
         discount: 11,
         originalPrice: 28,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -165,7 +165,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 35,
         discount: 10,
         originalPrice: 39,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -176,7 +176,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 38,
         discount: 12,
         originalPrice: 43,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -187,7 +187,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 59,
         discount: 14,
         originalPrice: 69,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -198,7 +198,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 75,
         discount: 17,
         originalPrice: 90,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -209,7 +209,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 120,
         discount: 8,
         originalPrice: 130,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -220,7 +220,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 30,
         discount: 10,
         originalPrice: 33,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -231,7 +231,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 37,
         discount: 11,
         originalPrice: 42,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -242,7 +242,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 39,
         discount: 10,
         originalPrice: 43,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -253,7 +253,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 80,
         discount: 15,
         originalPrice: 94,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -264,7 +264,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 62,
         discount: 10,
         originalPrice: 69,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -275,7 +275,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 28,
         discount: 7,
         originalPrice: 30,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -294,7 +294,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 25,
         discount: 11,
         originalPrice: 28,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -305,7 +305,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 35,
         discount: 13,
         originalPrice: 40,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -316,7 +316,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 35,
         discount: 10,
         originalPrice: 39,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -327,7 +327,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 85,
         discount: 15,
         originalPrice: 100,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -338,7 +338,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 75,
         discount: 12,
         originalPrice: 85,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -349,7 +349,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 120,
         discount: 10,
         originalPrice: 133,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -360,7 +360,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 30,
         discount: 9,
         originalPrice: 33,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -371,7 +371,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 28,
         discount: 11,
         originalPrice: 31,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -382,7 +382,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 95,
         discount: 14,
         originalPrice: 110,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -393,7 +393,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 60,
         discount: 10,
         originalPrice: 67,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -404,7 +404,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 80,
         discount: 12,
         originalPrice: 91,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -415,7 +415,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 40,
         discount: 10,
         originalPrice: 45,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -434,7 +434,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 25,
         discount: 11,
         originalPrice: 28,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -445,7 +445,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 35,
         discount: 13,
         originalPrice: 40,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -456,7 +456,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 35,
         discount: 10,
         originalPrice: 39,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -467,7 +467,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 75,
         discount: 6,
         originalPrice: 80,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -478,7 +478,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 90,
         discount: 10,
         originalPrice: 100,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -489,7 +489,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 45,
         discount: 10,
         originalPrice: 50,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -500,7 +500,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 160,
         discount: 6,
         originalPrice: 170,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -511,7 +511,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 55,
         discount: 9,
         originalPrice: 60,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -522,7 +522,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 60,
         discount: 10,
         originalPrice: 67,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -533,7 +533,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 50,
         discount: 8,
         originalPrice: 54,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -544,7 +544,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 85,
         discount: 5,
         originalPrice: 90,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -555,7 +555,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 65,
         discount: 7,
         originalPrice: 70,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -574,7 +574,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 25,
         discount: 11,
         originalPrice: 28,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -585,7 +585,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 30,
         discount: 9,
         originalPrice: 33,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -596,7 +596,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 35,
         discount: 10,
         originalPrice: 39,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -607,7 +607,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 75,
         discount: 6,
         originalPrice: 80,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -618,7 +618,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 65,
         discount: 7,
         originalPrice: 70,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -629,7 +629,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 135,
         discount: 10,
         originalPrice: 150,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -640,7 +640,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 55,
         discount: 9,
         originalPrice: 60,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -651,7 +651,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 85,
         discount: 6,
         originalPrice: 90,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -662,7 +662,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 79,
         discount: 8,
         originalPrice: 86,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -673,7 +673,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 90,
         discount: 5,
         originalPrice: 95,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -684,7 +684,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 32,
         discount: 11,
         originalPrice: 36,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -695,7 +695,7 @@ export const GroceryAllTabWiseCoffeeData = [
         price: 60,
         discount: 10,
         originalPrice: 67,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },

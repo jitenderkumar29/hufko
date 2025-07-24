@@ -14,7 +14,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 139,
         discount: 18,
         originalPrice: 169,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["chicken", "fresh", "bone-in", "curry", "non-veg"]
       },
       {
@@ -26,7 +26,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 265,
         discount: 12,
         originalPrice: 299,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["chicken", "large cut", "biryani", "fresh"]
       },
       {
@@ -38,7 +38,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 199,
         discount: 10,
         originalPrice: 219,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["boneless", "chicken", "low-fat", "stir-fry"]
       },
       {
@@ -50,7 +50,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 145,
         discount: 9,
         originalPrice: 159,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["chicken", "drumsticks", "grill", "juicy"]
       },
       {
@@ -62,7 +62,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 59,
         discount: 14,
         originalPrice: 69,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["organ", "chicken", "liver", "fresh"]
       },
       {
@@ -74,7 +74,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 375,
         discount: 6,
         originalPrice: 399,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["mutton", "goat", "curry", "bone-in"]
       },
       {
@@ -86,7 +86,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 365,
         discount: 8,
         originalPrice: 399,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["mutton", "boneless", "tender", "premium"]
       },
       {
@@ -98,7 +98,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 389,
         discount: 7,
         originalPrice: 419,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["mutton", "biryani", "goat", "large cut"]
       },
       {
@@ -110,7 +110,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 115,
         discount: 8,
         originalPrice: 125,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["organ", "mutton", "liver", "iron-rich"]
       },
       {
@@ -122,7 +122,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 345,
         discount: 10,
         originalPrice: 385,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["mince", "mutton", "keema", "ground meat"]
       },
       {
@@ -134,7 +134,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 169,
         discount: 15,
         originalPrice: 199,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["mince", "chicken", "keema", "ground meat"]
       },
       {
@@ -146,7 +146,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 535,
         discount: 11,
         originalPrice: 599,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["combo", "chicken", "mutton", "family pack"]
       }
     ]
@@ -166,7 +166,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 199,
         discount: 10,
         originalPrice: 219,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["fish", "rohu", "freshwater", "curry", "cut"]
       },
       {
@@ -178,7 +178,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 215,
         discount: 8,
         originalPrice: 235,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["fish", "katla", "large cut", "fresh"]
       },
       {
@@ -190,7 +190,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 525,
         discount: 7,
         originalPrice: 565,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["salmon", "fillet", "premium", "boneless", "seafood"]
       },
       {
@@ -202,7 +202,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 299,
         discount: 12,
         originalPrice: 339,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["prawns", "seafood", "deveined", "cleaned"]
       },
       {
@@ -214,7 +214,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 445,
         discount: 9,
         originalPrice: 489,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["prawns", "tiger", "jumbo", "seafood"]
       },
       {
@@ -226,7 +226,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 139,
         discount: 6,
         originalPrice: 149,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["bombil", "duck", "fish", "cleaned", "seafood"]
       },
       {
@@ -238,7 +238,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 185,
         discount: 10,
         originalPrice: 205,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["mackerel", "bangda", "fish", "whole", "fresh"]
       },
       {
@@ -250,7 +250,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 825,
         discount: 5,
         originalPrice: 869,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["hilsa", "ilish", "fish", "premium"]
       },
       {
@@ -262,7 +262,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 495,
         discount: 8,
         originalPrice: 539,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["surmai", "king fish", "steak", "boneless"]
       },
       {
@@ -274,7 +274,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 429,
         discount: 6,
         originalPrice: 459,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["pomfret", "whole", "white", "cleaned"]
       },
       {
@@ -286,7 +286,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 369,
         discount: 10,
         originalPrice: 409,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["crab", "seafood", "mud crab", "cleaned"]
       },
       {
@@ -298,7 +298,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 649,
         discount: 11,
         originalPrice: 729,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["combo", "seafood", "mix", "prawns", "squid"]
       }
     ]
@@ -318,7 +318,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 115,
         discount: 9,
         originalPrice: 126,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["salami", "chicken", "cold cut", "ready-to-eat"]
       },
       {
@@ -330,7 +330,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 139,
         discount: 10,
         originalPrice: 155,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["frankfurters", "chicken", "sausages", "grill"]
       },
       {
@@ -342,7 +342,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 149,
         discount: 12,
         originalPrice: 169,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["sausages", "chicken", "smoked", "cold cut"]
       },
       {
@@ -354,7 +354,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 165,
         discount: 10,
         originalPrice: 184,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["mortadella", "chicken", "olives", "cold cut"]
       },
       {
@@ -366,7 +366,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 119,
         discount: 8,
         originalPrice: 129,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["pepperoni", "chicken", "pizza", "spicy"]
       },
       {
@@ -378,7 +378,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 189,
         discount: 10,
         originalPrice: 210,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["pork", "cocktail", "sausages", "party"]
       },
       {
@@ -390,7 +390,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 165,
         discount: 9,
         originalPrice: 182,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["pork", "salami", "garlic", "cold cut"]
       },
       {
@@ -402,7 +402,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 169,
         discount: 11,
         originalPrice: 189,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["sausages", "chicken", "cheese", "snack"]
       },
       {
@@ -414,7 +414,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 135,
         discount: 10,
         originalPrice: 150,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["ham", "chicken", "smoked", "cold cut"]
       },
       {
@@ -426,7 +426,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 215,
         discount: 7,
         originalPrice: 230,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["pork", "bacon", "strips", "breakfast"]
       },
       {
@@ -438,7 +438,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 115,
         discount: 8,
         originalPrice: 125,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["veg", "sausages", "soya", "meat-free"]
       },
       {
@@ -450,7 +450,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 299,
         discount: 10,
         originalPrice: 335,
-        deliveryTime: "90 mins",
+        deliveryTime: "10 mins",
         // tags: ["combo", "sausages", "mixed", "chicken", "pork"]
       }
     ]
@@ -470,7 +470,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 45,
         discount: 10,
         originalPrice: 50,
-        deliveryTime: "8"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -481,7 +481,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 98,
         discount: 12,
         originalPrice: 112,
-        deliveryTime: "9"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -492,7 +492,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 65,
         discount: 8,
         originalPrice: 70,
-        deliveryTime: "7"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -503,7 +503,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 110,
         discount: 15,
         originalPrice: 129,
-        deliveryTime: "8"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -514,7 +514,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 60,
         discount: 9,
         originalPrice: 66,
-        deliveryTime: "9"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -525,7 +525,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 180,
         discount: 10,
         originalPrice: 200,
-        deliveryTime: "10"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -536,7 +536,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 40,
         discount: 11,
         originalPrice: 45,
-        deliveryTime: "6"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -547,7 +547,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 130,
         discount: 13,
         originalPrice: 149,
-        deliveryTime: "7"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -558,7 +558,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 115,
         discount: 10,
         originalPrice: 128,
-        deliveryTime: "8"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -569,7 +569,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 75,
         discount: 9,
         originalPrice: 82,
-        deliveryTime: "7"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -580,7 +580,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 80,
         discount: 11,
         originalPrice: 90,
-        deliveryTime: "8"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -591,7 +591,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 160,
         discount: 12,
         originalPrice: 182,
-        deliveryTime: "9"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -610,7 +610,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 179,
         discount: 10,
         originalPrice: 199,
-        deliveryTime: "8"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -621,7 +621,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 165,
         discount: 12,
         originalPrice: 189,
-        deliveryTime: "9"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -632,7 +632,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 225,
         discount: 10,
         originalPrice: 250,
-        deliveryTime: "9"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -643,7 +643,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 310,
         discount: 13,
         originalPrice: 356,
-        deliveryTime: "8"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -654,7 +654,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 215,
         discount: 10,
         originalPrice: 239,
-        deliveryTime: "9"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -665,7 +665,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 149,
         discount: 8,
         originalPrice: 162,
-        deliveryTime: "8"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -676,7 +676,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 135,
         discount: 10,
         originalPrice: 150,
-        deliveryTime: "9"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -687,7 +687,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 110,
         discount: 9,
         originalPrice: 121,
-        deliveryTime: "7"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -698,7 +698,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 189,
         discount: 11,
         originalPrice: 212,
-        deliveryTime: "8"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -709,7 +709,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 185,
         discount: 10,
         originalPrice: 205,
-        deliveryTime: "9"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -720,7 +720,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 105,
         discount: 7,
         originalPrice: 113,
-        deliveryTime: "7"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -731,7 +731,7 @@ export const GroceryAllTabWiseMeatsData = [
         price: 230,
         discount: 10,
         originalPrice: 255,
-        deliveryTime: "9"
+        deliveryTime: "10 mins"
       }
     ]
   },

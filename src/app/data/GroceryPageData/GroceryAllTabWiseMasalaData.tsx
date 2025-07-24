@@ -13,7 +13,7 @@ export const GroceryAllTabwiseMasalaData = [
         quantity: '200 g',
         price: 45,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -22,7 +22,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Red-Chilli-Powder.png',
         quantity: '200 g',
         price: 55,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -32,7 +32,7 @@ export const GroceryAllTabwiseMasalaData = [
         quantity: '200 g',
         price: 40,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -43,7 +43,7 @@ export const GroceryAllTabwiseMasalaData = [
         price: 50,
         originalPrice: 55,
         discount: 9,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -54,7 +54,7 @@ export const GroceryAllTabwiseMasalaData = [
         price: 60,
         originalPrice: 70,
         discount: 14,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -63,7 +63,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Kitchen-King-Masala.png',
         quantity: '100 g',
         price: 65,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -72,7 +72,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Pav-Bhaji-Masala.png',
         quantity: '100 g',
         price: 70,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -81,7 +81,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Chaat-Masala.png',
         quantity: '100 g',
         price: 55,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -90,7 +90,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Sambar-Powder.png',
         quantity: '100 g',
         price: 75,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -99,7 +99,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Rasam-Powder.png',
         quantity: '100 g',
         price: 70,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -108,7 +108,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Black-Pepper-Powder.png',
         quantity: '100 g',
         price: 90,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -117,7 +117,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Mustard-Seeds-Rai.png',
         quantity: '200 g',
         price: 50,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '13',
@@ -126,7 +126,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Fennel-Seeds-Saunf.png',
         quantity: '200 g',
         price: 60,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '14',
@@ -135,7 +135,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Fenugreek-Seeds-Methi.png',
         quantity: '200 g',
         price: 45,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -153,7 +153,7 @@ export const GroceryAllTabwiseMasalaData = [
         quantity: '500 g',
         price: 450,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -162,7 +162,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Cashew-Nuts-Kaju.png',
         quantity: '500 g',
         price: 600,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -172,7 +172,7 @@ export const GroceryAllTabwiseMasalaData = [
         quantity: '500 g',
         price: 550,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -183,7 +183,7 @@ export const GroceryAllTabwiseMasalaData = [
         price: 400,
         originalPrice: 450,
         discount: 11,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -194,7 +194,7 @@ export const GroceryAllTabwiseMasalaData = [
         price: 180,
         originalPrice: 200,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -203,7 +203,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Dates-Khajoor.png',
         quantity: '500 g',
         price: 250,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -212,7 +212,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Dried-Figs-Anjeer.png',
         quantity: '250 g',
         price: 220,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -221,7 +221,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Apricots-Khumani.png',
         quantity: '250 g',
         price: 200,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -230,7 +230,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Prunes.png',
         quantity: '250 g',
         price: 180,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -239,7 +239,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Hazelnuts.png',
         quantity: '250 g',
         price: 350,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -248,7 +248,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Macadamia-Nuts.png',
         quantity: '200 g',
         price: 500,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -257,7 +257,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Pine-Nuts-Chilgoza.png',
         quantity: '100 g',
         price: 300,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '13',
@@ -266,7 +266,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Brazil-Nuts.png',
         quantity: '200 g',
         price: 400,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '14',
@@ -275,7 +275,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Pecans.png',
         quantity: '200 g',
         price: 450,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -293,7 +293,7 @@ export const GroceryAllTabwiseMasalaData = [
         quantity: '100 g',
         price: 80,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -302,7 +302,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Cardamom-Elaichi.png',
         quantity: '50 g',
         price: 120,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -312,7 +312,7 @@ export const GroceryAllTabwiseMasalaData = [
         quantity: '50 g',
         price: 70,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -323,7 +323,7 @@ export const GroceryAllTabwiseMasalaData = [
         price: 90,
         originalPrice: 100,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -334,7 +334,7 @@ export const GroceryAllTabwiseMasalaData = [
         price: 40,
         originalPrice: 50,
         discount: 20,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -343,7 +343,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Star-Anise-Chakra-Phool.png',
         quantity: '50 g',
         price: 60,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -352,7 +352,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Nutmeg-Jaiphal.png',
         quantity: '50 g',
         price: 85,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -361,7 +361,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Mace-Javitri.png',
         quantity: '50 g',
         price: 95,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -370,7 +370,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Black-Cardamom-Badi-Elaichi.png',
         quantity: '50 g',
         price: 75,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -379,7 +379,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Cumin-Seeds-Jeera.png',
         quantity: '200 g',
         price: 60,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -388,7 +388,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Coriander-Seeds-Sabut-Dhania.png',
         quantity: '200 g',
         price: 50,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -397,7 +397,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Carom-Seeds-Ajwain.png',
         quantity: '100 g',
         price: 55,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '13',
@@ -406,7 +406,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Fenugreek-Seeds-Methi-Dana.png',
         quantity: '200 g',
         price: 45,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '14',
@@ -415,7 +415,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Saffron-Kesar.png',
         quantity: '1 g',
         price: 350,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -433,7 +433,7 @@ export const GroceryAllTabwiseMasalaData = [
         quantity: '100 g',
         price: 75,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -442,7 +442,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Tandoori-Masala.png',
         quantity: '100 g',
         price: 80,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -452,7 +452,7 @@ export const GroceryAllTabwiseMasalaData = [
         quantity: '100 g',
         price: 85,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -463,7 +463,7 @@ export const GroceryAllTabwiseMasalaData = [
         price: 90,
         originalPrice: 100,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -474,7 +474,7 @@ export const GroceryAllTabwiseMasalaData = [
         price: 70,
         originalPrice: 80,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -483,7 +483,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Chole-Masala.png',
         quantity: '100 g',
         price: 75,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -492,7 +492,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Rajma-Masala.png',
         quantity: '100 g',
         price: 75,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -501,7 +501,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Sambar-Masala.png',
         quantity: '100 g',
         price: 85,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -510,7 +510,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Rasam-Masala.png',
         quantity: '100 g',
         price: 80,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -519,7 +519,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Pani-Puri-Masala.png',
         quantity: '50 g',
         price: 45,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -528,7 +528,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Bhel-Puri-Masala.png',
         quantity: '50 g',
         price: 45,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -537,7 +537,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Dabeli-Masala.png',
         quantity: '50 g',
         price: 60,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '13',
@@ -546,7 +546,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Vada-Pav-Masala.png',
         quantity: '50 g',
         price: 55,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '14',
@@ -555,7 +555,7 @@ export const GroceryAllTabwiseMasalaData = [
         image: '/products/Kebab-Masala.png',
         quantity: '50 g',
         price: 70,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   }

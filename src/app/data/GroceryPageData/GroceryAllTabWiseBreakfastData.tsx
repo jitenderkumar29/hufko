@@ -14,7 +14,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 185,
         discount: 10,
         originalPrice: 205,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -25,7 +25,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 149,
         discount: 12,
         originalPrice: 169,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -36,7 +36,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 199,
         discount: 15,
         originalPrice: 234,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -47,7 +47,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 375,
         discount: 14,
         originalPrice: 435,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -58,7 +58,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 225,
         discount: 10,
         originalPrice: 250,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -69,7 +69,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 299,
         discount: 16,
         originalPrice: 355,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -80,7 +80,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 279,
         discount: 11,
         originalPrice: 315,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -91,7 +91,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 255,
         discount: 10,
         originalPrice: 285,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -102,7 +102,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 219,
         discount: 13,
         originalPrice: 252,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -113,7 +113,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 349,
         discount: 17,
         originalPrice: 420,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -124,7 +124,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 299,
         discount: 10,
         originalPrice: 333,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -135,7 +135,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 189,
         discount: 8,
         originalPrice: 205,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -154,7 +154,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 145,
         discount: 10,
         originalPrice: 161,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -165,7 +165,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 299,
         discount: 20,
         originalPrice: 374,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -176,7 +176,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 369,
         discount: 5,
         originalPrice: 388,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -187,7 +187,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 179,
         discount: 11,
         originalPrice: 200,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -198,7 +198,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 88,
         discount: 6,
         originalPrice: 94,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -209,7 +209,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 110,
         discount: 8,
         originalPrice: 120,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -220,7 +220,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 210,
         discount: 12,
         originalPrice: 239,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -231,7 +231,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 155,
         discount: 7,
         originalPrice: 167,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -242,7 +242,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 225,
         discount: 10,
         originalPrice: 250,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -253,7 +253,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 169,
         discount: 13,
         originalPrice: 194,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -264,7 +264,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 105,
         discount: 9,
         originalPrice: 115,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -275,7 +275,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 155,
         discount: 10,
         originalPrice: 172,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -294,7 +294,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 95,
         discount: 10,
         originalPrice: 105,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -305,7 +305,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 80,
         discount: 12,
         originalPrice: 91,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -316,7 +316,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 55,
         discount: 9,
         originalPrice: 60,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -327,7 +327,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 92,
         discount: 8,
         originalPrice: 100,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -338,7 +338,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 120,
         discount: 15,
         originalPrice: 141,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -349,7 +349,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 65,
         discount: 10,
         originalPrice: 72,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -360,7 +360,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 48,
         discount: 6,
         originalPrice: 51,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -371,7 +371,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 75,
         discount: 10,
         originalPrice: 83,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -382,7 +382,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 85,
         discount: 8,
         originalPrice: 92,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -393,7 +393,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 60,
         discount: 5,
         originalPrice: 63,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -404,7 +404,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 65,
         discount: 7,
         originalPrice: 70,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -415,7 +415,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 95,
         discount: 10,
         originalPrice: 105,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -434,7 +434,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 95,
         discount: 10,
         originalPrice: 105,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -445,7 +445,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 65,
         discount: 8,
         originalPrice: 71,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -456,7 +456,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 85,
         discount: 12,
         originalPrice: 97,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -467,7 +467,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 89,
         discount: 10,
         originalPrice: 99,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -478,7 +478,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 140,
         discount: 15,
         originalPrice: 165,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -489,7 +489,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 135,
         discount: 9,
         originalPrice: 148,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -500,7 +500,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 110,
         discount: 10,
         originalPrice: 122,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -511,7 +511,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 55,
         discount: 5,
         originalPrice: 58,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -522,7 +522,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 125,
         discount: 13,
         originalPrice: 144,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -533,7 +533,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 78,
         discount: 10,
         originalPrice: 87,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -544,7 +544,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 60,
         discount: 10,
         originalPrice: 67,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -555,7 +555,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 130,
         discount: 14,
         originalPrice: 151,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -574,7 +574,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 85,
         discount: 10,
         originalPrice: 95,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "2",
@@ -585,7 +585,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 99,
         discount: 12,
         originalPrice: 113,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "3",
@@ -596,7 +596,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 89,
         discount: 8,
         originalPrice: 97,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -607,7 +607,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 120,
         discount: 10,
         originalPrice: 133,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -618,7 +618,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 82,
         discount: 11,
         originalPrice: 92,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -629,7 +629,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 110,
         discount: 9,
         originalPrice: 121,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -640,7 +640,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 99,
         discount: 10,
         originalPrice: 110,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -651,7 +651,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 88,
         discount: 7,
         originalPrice: 95,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -662,7 +662,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 105,
         discount: 10,
         originalPrice: 117,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -673,7 +673,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 115,
         discount: 9,
         originalPrice: 126,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -684,7 +684,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 110,
         discount: 10,
         originalPrice: 122,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -695,7 +695,7 @@ export const GroceryAllTabWiseBreakfastData = [
         price: 98,
         discount: 8,
         originalPrice: 106,
-        deliveryTime: "90 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },

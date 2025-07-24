@@ -13,7 +13,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 145,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -23,7 +23,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '700 ml',
         price: 199,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -33,7 +33,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 220,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -43,7 +43,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 180,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -53,7 +53,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '700 ml',
         price: 190,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -63,7 +63,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 215,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -73,7 +73,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 200,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -83,7 +83,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '700 ml',
         price: 230,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -93,7 +93,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 210,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -103,7 +103,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '700 ml',
         price: 240,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -113,7 +113,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 185,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -123,7 +123,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 205,
         discount: 14,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -141,7 +141,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '50 ml',
         price: 25,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -151,7 +151,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '80 ml',
         price: 110,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -161,7 +161,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 35,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -171,7 +171,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '120 ml',
         price: 40,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -181,7 +181,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '70 ml',
         price: 45,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -191,7 +191,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '75 ml',
         price: 40,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -201,7 +201,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '80 ml',
         price: 120,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -211,7 +211,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 50,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -221,7 +221,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 35,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -231,7 +231,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 30,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -241,7 +241,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 50,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -251,7 +251,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 55,
         discount: 9,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -269,7 +269,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '120 ml',
         price: 40,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -279,7 +279,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '105 ml',
         price: 55,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -289,7 +289,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '110 ml',
         price: 35,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -299,7 +299,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 45,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -309,7 +309,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 50,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -319,7 +319,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '110 ml',
         price: 40,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -329,7 +329,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '90 ml',
         price: 35,
         discount: 9,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -339,7 +339,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '105 ml',
         price: 55,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -349,7 +349,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 30,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -359,7 +359,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '110 ml',
         price: 50,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -369,7 +369,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '110 ml',
         price: 45,
         discount: 9,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -379,7 +379,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 50,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -397,7 +397,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 25,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -407,7 +407,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 30,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -417,7 +417,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 28,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -427,7 +427,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 35,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -437,7 +437,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 30,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -447,7 +447,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 32,
         discount: 9,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -457,7 +457,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 30,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -467,7 +467,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 34,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -477,7 +477,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 28,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -487,7 +487,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 35,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -497,7 +497,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 30,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -507,7 +507,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 34,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -525,7 +525,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 30,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -535,7 +535,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 35,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -545,7 +545,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 40,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -555,7 +555,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 35,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -565,7 +565,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 32,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -575,7 +575,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 30,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -585,7 +585,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 38,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -595,7 +595,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 40,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -605,7 +605,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 36,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -615,7 +615,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 30,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -625,7 +625,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 32,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -635,7 +635,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '60 ml',
         price: 35,
         discount: 9,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -653,7 +653,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 60,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -663,7 +663,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 50,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -673,7 +673,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 70,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -683,7 +683,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 80,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -693,7 +693,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '125 ml',
         price: 90,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -703,7 +703,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 120,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -713,7 +713,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 55,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -723,7 +723,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 75,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -733,7 +733,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 60,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -743,7 +743,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 80,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -753,7 +753,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 125,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -763,7 +763,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '125 ml',
         price: 95,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -781,7 +781,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '700 ml',
         price: 150,
         discount: 20,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -791,7 +791,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '700 ml',
         price: 140,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -801,7 +801,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 120,
         discount: 18,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -811,7 +811,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 40,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -821,7 +821,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '85 ml',
         price: 30,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -831,7 +831,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '100 ml',
         price: 20,
         discount: 3,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -841,7 +841,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '70 ml',
         price: 25,
         discount: 4,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -851,7 +851,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '700 ml',
         price: 140,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -861,7 +861,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 130,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -871,7 +871,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '700 ml',
         price: 135,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -881,7 +881,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '700 ml',
         price: 160,
         discount: 20,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -891,7 +891,7 @@ export const GroceryAllTabWiseIceCreamData = [
         quantity: '1 L',
         price: 145,
         discount: 18,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -909,7 +909,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '65 ml',
     price: 25,
     discount: 4,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '2',
@@ -919,7 +919,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '60 ml',
     price: 20,
     discount: 3,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '3',
@@ -929,7 +929,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '70 ml',
     price: 25,
     discount: 5,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '4',
@@ -939,7 +939,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '120 ml',
     price: 35,
     discount: 5,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '5',
@@ -949,7 +949,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '90 ml',
     price: 45,
     discount: 7,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '6',
@@ -959,7 +959,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '60 ml',
     price: 20,
     discount: 2,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '7',
@@ -969,7 +969,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '50 ml',
     price: 15,
     discount: 2,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '8',
@@ -979,7 +979,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '65 ml',
     price: 20,
     discount: 3,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '9',
@@ -989,7 +989,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '70 ml',
     price: 25,
     discount: 4,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '10',
@@ -999,7 +999,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '60 ml',
     price: 22,
     discount: 2,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '11',
@@ -1009,7 +1009,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '85 ml',
     price: 30,
     discount: 4,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   },
   {
     id: '12',
@@ -1019,7 +1019,7 @@ export const GroceryAllTabWiseIceCreamData = [
     quantity: '50 ml',
     price: 20,
     discount: 3,
-    deliveryTime: '30 mins'
+    deliveryTime: '10 mins'
   }
     ]
   },

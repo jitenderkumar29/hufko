@@ -13,7 +13,7 @@ export const GroceryAllTabWiseFruitsData = [
         quantity: '1 kg',
         price: 120,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -22,7 +22,7 @@ export const GroceryAllTabWiseFruitsData = [
         image: '/products/robusta-banana.png',
         quantity: '1 dozen',
         price: 45,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -32,7 +32,7 @@ export const GroceryAllTabWiseFruitsData = [
         quantity: '1 kg',
         price: 80,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -43,7 +43,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 89,
         originalPrice: 113,
         discount: 21,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -54,7 +54,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 55,
         originalPrice: 77,
         discount: 28,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -65,7 +65,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 57,
         discount: 24,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -76,7 +76,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 89,
         originalPrice: 112,
         discount: 20,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -87,7 +87,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 69,
         originalPrice: 91,
         discount: 24,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -98,7 +98,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 89,
         originalPrice: 117,
         discount: 23,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -109,7 +109,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 239,
         originalPrice: 325,
         discount: 26,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -120,7 +120,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 59,
         originalPrice: 82,
         discount: 28,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -131,7 +131,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 114,
         originalPrice: 156,
         discount: 26,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '13',
@@ -142,7 +142,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 99,
         originalPrice: 129,
         discount: 23,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '14',
@@ -153,7 +153,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 136,
         originalPrice: 171,
         discount: 20,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '15',
@@ -164,7 +164,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 58,
         originalPrice: 72,
         discount: 19,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '16',
@@ -175,7 +175,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 63,
         originalPrice: 79,
         discount: 20,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '17',
@@ -186,7 +186,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 79,
         originalPrice: 101,
         discount: 21,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '18',
@@ -197,7 +197,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 103,
         originalPrice: 138,
         discount: 25,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '19',
@@ -208,7 +208,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 132,
         originalPrice: 175,
         discount: 24,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '20',
@@ -219,7 +219,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 153,
         originalPrice: 205,
         discount: 25,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '21',
@@ -230,7 +230,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 101,
         originalPrice: 129,
         discount: 21,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '22',
@@ -241,7 +241,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 42,
         originalPrice: 52,
         discount: 19,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '23',
@@ -252,7 +252,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 151,
         originalPrice: 209,
         discount: 27,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '24',
@@ -263,7 +263,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 139,
         originalPrice: 186,
         discount: 25,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '25',
@@ -274,7 +274,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 200,
         originalPrice: 278,
         discount: 28,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '26',
@@ -285,7 +285,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 99,
         originalPrice: 137,
         discount: 27,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '27',
@@ -296,7 +296,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 142,
         originalPrice: 177,
         discount: 19,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '28',
@@ -307,7 +307,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 77,
         originalPrice: 101,
         discount: 23,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '29',
@@ -318,7 +318,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 79,
         originalPrice: 104,
         discount: 24,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '30',
@@ -329,7 +329,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 65,
         originalPrice: 84,
         discount: 22,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '31',
@@ -340,7 +340,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 78,
         originalPrice: 99,
         discount: 21,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '32',
@@ -351,7 +351,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 47,
         originalPrice: 62,
         discount: 24,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '33',
@@ -362,7 +362,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 149,
         originalPrice: 207,
         discount: 28,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '34',
@@ -373,7 +373,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 114,
         originalPrice: 170,
         discount: 32,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '35',
@@ -384,7 +384,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 89,
         originalPrice: 118,
         discount: 24,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '36',
@@ -395,7 +395,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 93,
         originalPrice: 123,
         discount: 24,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '37',
@@ -406,7 +406,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 139,
         originalPrice: 186,
         discount: 25,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '38',
@@ -417,7 +417,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 39,
         originalPrice: 50,
         discount: 22,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '39',
@@ -428,7 +428,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 160,
         originalPrice: 270,
         discount: 40,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '40',
@@ -439,7 +439,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 139,
         originalPrice: 186,
         discount: 25,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '41',
@@ -450,7 +450,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 39,
         originalPrice: 50,
         discount: 22,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '42',
@@ -461,7 +461,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 160,
         originalPrice: 270,
         discount: 40,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -478,7 +478,7 @@ export const GroceryAllTabWiseFruitsData = [
         image: '/products/hybrid-tomato.png',
         quantity: '1 kg',
         price: 25,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -488,7 +488,7 @@ export const GroceryAllTabWiseFruitsData = [
         quantity: '1 kg',
         price: 30,
         discount: 8,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -497,7 +497,7 @@ export const GroceryAllTabWiseFruitsData = [
         image: '/products/premium-onion.png',
         quantity: '1 kg',
         price: 40,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: "4",
@@ -507,7 +507,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 17,
         originalPrice: 21,
         discount: 19,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -517,7 +517,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 36,
         originalPrice: 47,
         discount: 23,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -527,7 +527,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 17,
         originalPrice: 22,
         discount: 22,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -537,7 +537,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 41,
         originalPrice: 51,
         discount: 19,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -547,7 +547,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 31,
         originalPrice: 41,
         discount: 24,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -557,7 +557,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 23,
         originalPrice: 30,
         discount: 23,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -567,7 +567,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 25,
         originalPrice: 31,
         discount: 19,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -577,7 +577,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 37,
         originalPrice: 51,
         discount: 27,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -587,7 +587,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 24,
         originalPrice: 32,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "13",
@@ -597,7 +597,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 38,
         originalPrice: 52,
         discount: 26,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "14",
@@ -607,7 +607,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 19,
         originalPrice: 24,
         discount: 20,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "15",
@@ -617,7 +617,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 23,
         originalPrice: 28,
         discount: 17,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "16",
@@ -627,7 +627,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 44,
         originalPrice: 57,
         discount: 22,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "17",
@@ -637,7 +637,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 35,
         originalPrice: 47,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "18",
@@ -647,7 +647,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 49,
         originalPrice: 62,
         discount: 20,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "19",
@@ -657,7 +657,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 51,
         originalPrice: 65,
         discount: 21,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "20",
@@ -667,7 +667,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 39,
         originalPrice: 54,
         discount: 27,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "21",
@@ -677,7 +677,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 21,
         originalPrice: 26,
         discount: 19,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "22",
@@ -687,7 +687,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 40,
         originalPrice: 50,
         discount: 20,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "23",
@@ -697,7 +697,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 44,
         originalPrice: 55,
         discount: 20,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "24",
@@ -707,7 +707,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 54,
         originalPrice: 89,
         discount: 39,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "25",
@@ -717,7 +717,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 120,
         originalPrice: 162,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "26",
@@ -727,7 +727,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 22,
         originalPrice: 30,
         discount: 26,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "27",
@@ -737,7 +737,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 81,
         originalPrice: 104,
         discount: 22,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "28",
@@ -747,7 +747,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 21,
         originalPrice: 27,
         discount: 22,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "29",
@@ -757,7 +757,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 89,
         originalPrice: 112,
         discount: 20,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "30",
@@ -767,7 +767,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 37,
         originalPrice: 49,
         discount: 24,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "31",
@@ -777,7 +777,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 83,
         originalPrice: 112,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "32",
@@ -787,7 +787,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 25,
         originalPrice: 32,
         discount: 21,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "33",
@@ -797,7 +797,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 18,
         originalPrice: 24,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "34",
@@ -807,7 +807,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 18,
         originalPrice: 24,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "35",
@@ -817,7 +817,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 62,
         originalPrice: 83,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "36",
@@ -827,7 +827,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 35,
         originalPrice: 44,
         discount: 20,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "37",
@@ -837,7 +837,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 59,
         discount: 27,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "38",
@@ -847,7 +847,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 198,
         originalPrice: 240,
         discount: 17,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "39",
@@ -857,7 +857,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 150,
         discount: 71,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "40",
@@ -867,7 +867,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 59,
         discount: 27,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "41",
@@ -877,7 +877,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 198,
         originalPrice: 240,
         discount: 17,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "42",
@@ -887,7 +887,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 150,
         discount: 71,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       }
     ]
   },
@@ -924,7 +924,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 22,
         originalPrice: 30,
         discount: 26,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -934,7 +934,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 83,
         originalPrice: 112,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -944,7 +944,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 25,
         originalPrice: 32,
         discount: 21,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -954,7 +954,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 18,
         originalPrice: 24,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -964,7 +964,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 18,
         originalPrice: 24,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -974,7 +974,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 62,
         originalPrice: 83,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -984,7 +984,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 35,
         originalPrice: 44,
         discount: 20,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -994,7 +994,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 59,
         discount: 27,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -1004,7 +1004,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 198,
         originalPrice: 240,
         discount: 17,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -1014,7 +1014,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 150,
         discount: 71,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
     ]
   },
@@ -1031,7 +1031,7 @@ export const GroceryAllTabWiseFruitsData = [
         image: '/products/fresh-spinach.png',
         quantity: '250 g',
         price: 20,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -1040,7 +1040,7 @@ export const GroceryAllTabWiseFruitsData = [
         image: '/products/coriander-leaves.png',
         quantity: '100 g',
         price: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: "3",
@@ -1050,7 +1050,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 83,
         originalPrice: 112,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "4",
@@ -1060,7 +1060,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 25,
         originalPrice: 32,
         discount: 21,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "5",
@@ -1070,7 +1070,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 18,
         originalPrice: 24,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "6",
@@ -1080,7 +1080,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 18,
         originalPrice: 24,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "7",
@@ -1090,7 +1090,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 62,
         originalPrice: 83,
         discount: 25,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "8",
@@ -1100,7 +1100,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 35,
         originalPrice: 44,
         discount: 20,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "9",
@@ -1110,7 +1110,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 59,
         discount: 27,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "10",
@@ -1120,7 +1120,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 198,
         originalPrice: 240,
         discount: 17,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "11",
@@ -1130,7 +1130,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 150,
         discount: 71,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
       {
         id: "12",
@@ -1140,7 +1140,7 @@ export const GroceryAllTabWiseFruitsData = [
         price: 43,
         originalPrice: 59,
         discount: 27,
-        deliveryTime: "8 mins"
+        deliveryTime: "10 mins"
       },
     ]
   }

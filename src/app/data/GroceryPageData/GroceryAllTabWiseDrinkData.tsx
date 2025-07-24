@@ -13,7 +13,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '750 ml',
         price: 40,
         discount: 5,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -33,7 +33,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '750 ml',
         price: 40,
         discount: 8,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -53,7 +53,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '750 ml',
         price: 40,
         discount: 6,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -63,7 +63,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '750 ml',
         price: 38,
         discount: 5,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -73,7 +73,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 35,
         discount: 7,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -83,7 +83,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 35,
         discount: 6,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -93,7 +93,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 35,
         discount: 5,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -103,7 +103,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '750 ml',
         price: 45,
         discount: 10,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -113,7 +113,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '750 ml',
         price: 38,
         discount: 6,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -123,7 +123,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 32,
         discount: 4,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -141,7 +141,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 110,
         discount: 15,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -161,7 +161,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 120,
         discount: 18,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -171,7 +171,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '750 ml',
         price: 85,
         discount: 10,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -181,7 +181,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 95,
         discount: 12,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -191,7 +191,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 100,
         discount: 10,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -201,7 +201,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 99,
         discount: 15,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -211,7 +211,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '750 ml',
         price: 82,
         discount: 8,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -241,7 +241,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 105,
         discount: 12,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -251,7 +251,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 72,
         discount: 9,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -269,7 +269,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1.2 L',
         price: 70,
         discount: 12,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -279,7 +279,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1.2 L',
         price: 72,
         discount: 10,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -289,7 +289,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 60,
         discount: 8,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -299,7 +299,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 40,
         discount: 10,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -309,7 +309,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 38,
         discount: 9,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -319,7 +319,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 55,
         discount: 7,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -329,7 +329,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 60,
         discount: 10,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -349,7 +349,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '1 L',
         price: 115,
         discount: 20,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -359,7 +359,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 65,
         discount: 11,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -369,7 +369,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 12,
         discount: 0,
-        deliveryTime: '5 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -379,7 +379,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 13,
         discount: 0,
-        deliveryTime: '5 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -397,7 +397,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 65,
         discount: 10,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -407,7 +407,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 60,
         discount: 8,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -417,7 +417,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 60,
         discount: 7,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -427,7 +427,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 40,
         discount: 5,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -437,7 +437,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 35,
         discount: 5,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -447,7 +447,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 30,
         discount: 4,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -457,7 +457,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 28,
         discount: 3,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -467,7 +467,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 32,
         discount: 6,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -477,7 +477,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 30,
         discount: 4,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -487,7 +487,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 35,
         discount: 5,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -497,7 +497,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 65,
         discount: 9,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -507,7 +507,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '600 ml',
         price: 63,
         discount: 8,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -525,7 +525,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '300 ml',
         price: 45,
         discount: 6,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -535,7 +535,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '300 ml',
         price: 45,
         discount: 5,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -545,7 +545,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 70,
         discount: 10,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -555,7 +555,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 70,
         discount: 9,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -565,7 +565,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 50,
         discount: 7,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -575,7 +575,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 55,
         discount: 6,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -585,7 +585,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 100,
         discount: 12,
-        deliveryTime: '9 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -605,7 +605,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '300 ml',
         price: 60,
         discount: 8,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -615,7 +615,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 85,
         discount: 10,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -625,7 +625,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 70,
         discount: 9,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -635,7 +635,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '500 ml',
         price: 90,
         discount: 10,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -653,7 +653,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 30,
         discount: 5,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -663,7 +663,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 30,
         discount: 5,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -673,7 +673,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 35,
         discount: 6,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -683,7 +683,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 35,
         discount: 6,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -693,7 +693,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '300 ml',
         price: 50,
         discount: 8,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -703,7 +703,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '300 ml',
         price: 50,
         discount: 8,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -713,7 +713,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 40,
         discount: 5,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -723,7 +723,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 40,
         discount: 5,
-        deliveryTime: '6 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -733,7 +733,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 45,
         discount: 7,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -743,7 +743,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '250 ml',
         price: 45,
         discount: 7,
-        deliveryTime: '7 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -753,7 +753,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '300 ml',
         price: 55,
         discount: 9,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -763,7 +763,7 @@ export const GroceryAllTabWiseDrinkData = [
         quantity: '300 ml',
         price: 55,
         discount: 9,
-        deliveryTime: '8 mins'
+        deliveryTime: '10 mins'
       }
     ]
   }

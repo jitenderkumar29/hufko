@@ -13,7 +13,7 @@ export const GroceryAllTabWiseAttaData = [
         quantity: '5 kg',
         price: 250,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -22,7 +22,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Pillsbury-Chakki-Fresh-Atta.png',
         quantity: '5 kg',
         price: 235,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -32,7 +32,7 @@ export const GroceryAllTabWiseAttaData = [
         quantity: '10 kg',
         price: 450,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -43,7 +43,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 299,
         originalPrice: 349,
         discount: 14,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -54,7 +54,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 265,
         originalPrice: 295,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -63,7 +63,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Sujata-Chakki-Atta.png',
         quantity: '5 kg',
         price: 240,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -74,7 +74,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 275,
         originalPrice: 325,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -83,7 +83,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Annapurna-Farm-Fresh-Atta.png',
         quantity: '5 kg',
         price: 220,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -92,7 +92,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Patanjali-Whole-Wheat-Atta.png',
         quantity: '5 kg',
         price: 210,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -103,7 +103,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 280,
         originalPrice: 320,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -112,7 +112,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Besan-Gram-Flour.png',
         quantity: '1 kg',
         price: 80,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -121,7 +121,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Bajra-Flour.png',
         quantity: '1 kg',
         price: 60,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '13',
@@ -130,7 +130,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Jowar-Flour.png',
         quantity: '1 kg',
         price: 65,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '14',
@@ -139,7 +139,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Ragi-Flour.png',
         quantity: '1 kg',
         price: 70,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '15',
@@ -148,7 +148,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Maida-Refined-Flour.png',
         quantity: '1 kg',
         price: 45,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '16',
@@ -157,7 +157,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Sooji-Semolina.png',
         quantity: '1 kg',
         price: 50,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '17',
@@ -166,7 +166,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Rice-Flour.png',
         quantity: '1 kg',
         price: 55,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '18',
@@ -175,7 +175,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Corn-Flour.png',
         quantity: '1 kg',
         price: 40,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '19',
@@ -186,7 +186,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 290,
         originalPrice: 340,
         discount: 14,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '20',
@@ -195,7 +195,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Organic-Besan.png',
         quantity: '500 g',
         price: 65,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '21',
@@ -204,7 +204,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Buckwheat-Flour.png',
         quantity: '500 g',
         price: 120,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '22',
@@ -213,7 +213,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Quinoa-Flour.png',
         quantity: '500 g',
         price: 180,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '23',
@@ -222,7 +222,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Amaranth-Flour.png',
         quantity: '500 g',
         price: 110,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '24',
@@ -231,7 +231,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Sattu-Flour.png',
         quantity: '1 kg',
         price: 90,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -249,7 +249,7 @@ export const GroceryAllTabWiseAttaData = [
         quantity: '5 kg',
         price: 450,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -258,7 +258,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Sona-Masoori-Rice.png',
         quantity: '5 kg',
         price: 320,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -268,7 +268,7 @@ export const GroceryAllTabWiseAttaData = [
         quantity: '1 kg',
         price: 120,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -279,7 +279,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 380,
         originalPrice: 420,
         discount: 9,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -290,7 +290,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 110,
         originalPrice: 130,
         discount: 15,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -299,7 +299,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Black-Rice.png',
         quantity: '500 g',
         price: 180,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -308,7 +308,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Poha-Flattened-Rice.png',
         quantity: '500 g',
         price: 45,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -317,7 +317,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Idli-Rice.png',
         quantity: '5 kg',
         price: 280,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -326,7 +326,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Organic-Basmati-Rice.png',
         quantity: '1 kg',
         price: 150,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -335,7 +335,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Jasmine-Rice.png',
         quantity: '1 kg',
         price: 160,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -344,7 +344,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Sushi-Rice.png',
         quantity: '1 kg',
         price: 190,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -353,7 +353,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Arborio-Ricepng.png',
         quantity: '500 g',
         price: 220,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '13',
@@ -362,7 +362,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Parboiled-Ricepng.png',
         quantity: '5 kg',
         price: 290,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '14',
@@ -371,7 +371,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Dosa-Rice.png',
         quantity: '5 kg',
         price: 270,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '15',
@@ -380,7 +380,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Wild-Rice.png',
         quantity: '250 g',
         price: 200,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '16',
@@ -389,7 +389,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Quinoa.png',
         quantity: '500 g',
         price: 350,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '17',
@@ -398,7 +398,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Matta-Rice.png',
         quantity: '5 kg',
         price: 340,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '18',
@@ -407,7 +407,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Avalakki-Poha.png',
         quantity: '1 kg',
         price: 80,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '19',
@@ -416,7 +416,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Millet-Rice-Mix.png',
         quantity: '1 kg',
         price: 140,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '20',
@@ -425,7 +425,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Sticky-Rice.png',
         quantity: '500 g',
         price: 120,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '21',
@@ -434,7 +434,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Broken-Wheat-Dalia.png',
         quantity: '1 kg',
         price: 60,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '22',
@@ -443,7 +443,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Barnyard-Millet.png',
         quantity: '500 g',
         price: 90,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '23',
@@ -452,7 +452,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Foxtail-Millet.png',
         quantity: '500 g',
         price: 85,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '24',
@@ -461,7 +461,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Little-Millet.png',
         quantity: '500 g',
         price: 75,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -479,7 +479,7 @@ export const GroceryAllTabWiseAttaData = [
         quantity: '1 litre',
         price: 160,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -488,7 +488,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Saffola-Gold-Oil.png',
         quantity: '1 litre',
         price: 180,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -498,7 +498,7 @@ export const GroceryAllTabWiseAttaData = [
         quantity: '500 ml',
         price: 450,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -509,7 +509,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 140,
         originalPrice: 155,
         discount: 9,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -520,7 +520,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 220,
         originalPrice: 250,
         discount: 12,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -529,7 +529,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Rice-Bran-Oil.png',
         quantity: '1 litre',
         price: 170,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -538,7 +538,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Groundnut-Oil.png',
         quantity: '1 litre',
         price: 190,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -547,7 +547,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Sesame-Oil-Til-Ka-Tel.png',
         quantity: '500 ml',
         price: 210,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -556,7 +556,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Soya-Bean-Oil.png',
         quantity: '1 litre',
         price: 130,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -565,7 +565,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Avocado-Oil.png',
         quantity: '250 ml',
         price: 350,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -574,7 +574,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Flaxseed-Oil.png',
         quantity: '250 ml',
         price: 280,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -583,7 +583,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Ghee-Pure-Cow.png',
         quantity: '500 g',
         price: 320,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '13',
@@ -592,7 +592,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Blended-Oil.png',
         quantity: '1 litre',
         price: 175,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '14',
@@ -601,7 +601,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Canola-Oil.png',
         quantity: '1 litre',
         price: 200,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '15',
@@ -610,7 +610,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Grapeseed-Oil.png',
         quantity: '500 ml',
         price: 240,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '16',
@@ -619,7 +619,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Walnut-Oil.png',
         quantity: '250 ml',
         price: 380,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '17',
@@ -628,7 +628,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Almond-Oil.png',
         quantity: '250 ml',
         price: 320,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '18',
@@ -637,7 +637,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Pumpkin-Seed-Oil.png',
         quantity: '250 ml',
         price: 420,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '19',
@@ -646,7 +646,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Hemp-Seed-Oil.png',
         quantity: '250 ml',
         price: 360,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '20',
@@ -655,7 +655,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Macadamia-Nut-Oil.png',
         quantity: '250 ml',
         price: 450,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '21',
@@ -664,7 +664,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Peanut-Oil.png',
         quantity: '1 litre',
         price: 185,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '22',
@@ -673,7 +673,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Safflower-Oil.png',
         quantity: '1 litre',
         price: 210,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '23',
@@ -682,7 +682,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Sunflower-Oil-Organic.png',
         quantity: '1 litre',
         price: 230,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '24',
@@ -691,7 +691,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Vegetable-Oil.png',
         quantity: '1 litre',
         price: 120,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   },
@@ -709,7 +709,7 @@ export const GroceryAllTabWiseAttaData = [
         quantity: '1 kg',
         price: 120,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '2',
@@ -718,7 +718,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Moong-Dal-Split.png',
         quantity: '1 kg',
         price: 110,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '3',
@@ -728,7 +728,7 @@ export const GroceryAllTabWiseAttaData = [
         quantity: '1 kg',
         price: 90,
         discount: 5,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '4',
@@ -739,7 +739,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 130,
         originalPrice: 145,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '5',
@@ -750,7 +750,7 @@ export const GroceryAllTabWiseAttaData = [
         price: 85,
         originalPrice: 95,
         discount: 10,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '6',
@@ -759,7 +759,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Whole-Moong-Green-Gram.png',
         quantity: '1 kg',
         price: 100,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '7',
@@ -768,7 +768,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Whole-Urad-Black-Gram.png',
         quantity: '1 kg',
         price: 125,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '8',
@@ -777,7 +777,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Whole-Masoor-Brown-Lentils.png',
         quantity: '1 kg',
         price: 80,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '9',
@@ -786,7 +786,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Rajma-Red-Kidney-Beans.png',
         quantity: '500 g',
         price: 75,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '10',
@@ -795,7 +795,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Chickpeas-Kabuli-Chana.png',
         quantity: '500 g',
         price: 65,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '11',
@@ -804,7 +804,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Matki-Moth-Beans.png',
         quantity: '500 g',
         price: 70,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '12',
@@ -813,7 +813,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Lobia-Black-Eyed-Beans.png',
         quantity: '500 g',
         price: 75,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '13',
@@ -822,7 +822,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Green-Peas-Dry.png',
         quantity: '500 g',
         price: 60,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '14',
@@ -831,7 +831,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Yellow-Peas.png',
         quantity: '500 g',
         price: 55,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '15',
@@ -840,7 +840,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Moong-Chilka.png',
         quantity: '1 kg',
         price: 95,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '16',
@@ -849,7 +849,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Urad-Chilka.png',
         quantity: '1 kg',
         price: 115,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '17',
@@ -858,7 +858,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Organic-Toor-Dal.png',
         quantity: '1 kg',
         price: 150,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '18',
@@ -867,7 +867,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Organic-Moong-Dal.png',
         quantity: '1 kg',
         price: 140,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '19',
@@ -876,7 +876,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Organic-Chana-Dal.png',
         quantity: '1 kg',
         price: 120,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '20',
@@ -885,7 +885,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Horse-Gram-Kulthi.png',
         quantity: '500 g',
         price: 85,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '21',
@@ -894,7 +894,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Soya-Chunks.png',
         quantity: '500 g',
         price: 95,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '22',
@@ -903,7 +903,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Soya-Granules.png',
         quantity: '500 g',
         price: 90,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '23',
@@ -912,7 +912,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/MixedDal.png',
         quantity: '1 kg',
         price: 135,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       },
       {
         id: '24',
@@ -921,7 +921,7 @@ export const GroceryAllTabWiseAttaData = [
         image: '/products/Sprouts-Mix.png',
         quantity: '500 g',
         price: 65,
-        deliveryTime: '30 mins'
+        deliveryTime: '10 mins'
       }
     ]
   }
