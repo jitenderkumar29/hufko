@@ -8,7 +8,8 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(to top, #f5dde6, #f6c2d5);
+  background-color: $primary-color;
+  // background: linear-gradient(to top, #f5dde6, #f6c2d5);
   // background: linear-gradient(to top, #f6cedd, #f6aec8);
   // background: linear-gradient(to top, #f7a9c5, #f66fa1d9);
   // background: linear-gradient(to top, #FBF8FF, $primary-color);
@@ -53,14 +54,15 @@
 
     &:hover {
       opacity: 0.8;
-      background-color: #f7f7f728;
+      background-color: #f7f7f703;
     }
 
     .deliveryTime{
       font-size: 20px;
       font-weight: bold;
       margin-left: 25px;
-      color: $black;
+      color: $white;
+      // color: $black;
     }
     .deliveryLocation{
       display: flex;
@@ -68,9 +70,9 @@
   }
 
   .locationIcon {
-    color: $primary-color;
+    // color: $primary-color;
     // color: #950EDB;
-    // color: $white;
+    color: $white;
     font-size:20px;
     margin-top: 1px;
     margin-right: 5px;
@@ -78,16 +80,16 @@
 
   .locationText {
     font-size: 15px;
-    // color: $white;
-    color: #333;
+    color: $white;
+    // color: #333;
     display: flex;
     align-items: center;
     // gap: 0.2rem;
   }
 
   .dropdownIcon {
-    // color: $white;
-    color: #666;
+    color: $white;
+    // color: #666;
     font-size: 20px;
     font-weight: bold;
   }
@@ -227,8 +229,8 @@
     border: none;
     cursor: pointer;
     font-size: 0.9rem;
-    // color: $white;
-    color: #333;
+    color: $white;
+    // color: #333;
     padding: 0.3rem 0.6rem;
     border-radius: 0.3rem;
     transition: all 0.2s ease;
@@ -265,7 +267,8 @@
 
   .actionIcon {
     font-size: 0.9rem;
-    color: #666;
+    color: $white;
+    // color: #666;
   }
 
   .cartButton {
@@ -342,8 +345,8 @@
     border: none;
     cursor: pointer;
     font-size: 0.9rem;
-    // color: $white;
-    color: #333;
+    color: $white;
+    // color: #333;
     padding: 0.3rem 0.6rem;
     border-radius: 0.3rem;
     transition: all 0.2s ease;
