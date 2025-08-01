@@ -54,7 +54,8 @@ const Header = () => {
         <div className={styles.leftSection}>
           {/* <h1 className={styles.logo}>HUFKO</h1> */}
           <Link href="/">
-            <Image src={"/icons/logo.png"} className={styles.logo} alt='Logo' width={521} height={117} />
+            <Image src={"/icons/logo.png"} className={styles.logo} alt='Logo' width={1080} height={266} />
+            {/* <Image src={"/icons/logo.png"} className={styles.logo} alt='Logo' width={521} height={117} /> */}
           </Link>
           <div className={styles.locationContainer} onClick={toggleLocationModal}>
             <div className={styles.deliveryTime}>Delivery in 10 minutes</div>
